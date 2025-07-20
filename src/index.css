@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Wellfleet&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Oswald", "sans-serif"; 
+  --font-secondary : "Inter", sans-serif;
+  --font-tittle : "Wellfleet", serif;
+  
+}
+
+button.slick-arrow{
+display: none !important ;
+}
