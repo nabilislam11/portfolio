@@ -3,6 +3,7 @@ import Navbar from '../component/navbar/Navbar'
 import pic from "../assets/pic.jpg"
 import { FaCircleDown } from "react-icons/fa6";
 import Marque from '../component/navbar/marque/Marque';
+import About from '../component/about/About';
 
 const Home = () => {
   return (
@@ -27,15 +28,18 @@ const Home = () => {
             </div>
             </div>
 
-          <div className="w-[50%]   ">
-            <div className="w-[350px] ms-auto h-[350px] pt-[109px] ">
+          <div className="w-[50%]     ">
+            <div className="w-[350px] ms-auto h-[350px] pt-[109px] rounded-full ">
              <img src={pic} alt="" />
             </div>
           </div>
         </div>
       </div>
-    </div>
         <Marque/>
+        <div className="w-[1440px]  mx-auto px-4">
+          <About/>
+        </div>
+    </div>
   </>
 
 
