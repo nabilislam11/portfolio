@@ -5,6 +5,7 @@ import { FaCircleDown } from "react-icons/fa6";
 import Marque from '../component/navbar/marque/Marque';
 import About from '../component/about/About';
 import Service from '../component/service/Service';
+import Skill from '../component/skill/Skill';
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
         <div className="w-[1440px]  mx-auto px-4">
           <About/>
           <Service/>
+          <Skill/>
         </div>
     </div>
   </>
