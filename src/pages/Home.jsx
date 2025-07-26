@@ -6,6 +6,8 @@ import Marque from '../component/navbar/marque/Marque';
 import About from '../component/about/About';
 import Service from '../component/service/Service';
 import Skill from '../component/skill/Skill';
+import Project from '../component/project/Project';
+import Blog from '../component/blog/Blog';
 
 const Home = () => {
   return (
@@ -42,6 +44,8 @@ const Home = () => {
           <About/>
           <Service/>
           <Skill/>
+          <Project/>
+          <Blog/>
         </div>
     </div>
   </>
