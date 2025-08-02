@@ -8,6 +8,7 @@ import Service from '../component/service/Service';
 import Skill from '../component/skill/Skill';
 import Project from '../component/project/Project';
 import Blog from '../component/blog/Blog';
+import Footer from '../component/footer/Footer';
 
 const Home = () => {
   return (
@@ -46,6 +47,7 @@ const Home = () => {
           <Skill/>
           <Project/>
           <Blog/>
+          <Footer/>
         </div>
     </div>
   </>

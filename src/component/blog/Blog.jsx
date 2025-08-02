@@ -21,7 +21,7 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2 ">
+                            <div className="flex items-center gap-x-2  pt-1.5">
                                 <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
                                 <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
                                     <TiLocationArrowOutline size={35} />
@@ -38,8 +38,8 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2 ">
-                                <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
+                            <div className="flex items-center gap-x-2 pt-1.5 ">
+                                <p className='font-primary font-normal text-[16px] text-white'>Read More</p>
                                 <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
                                     <TiLocationArrowOutline size={35} />
                                 </div>
@@ -58,7 +58,7 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2 ">
+                            <div className="flex items-center gap-x-2  pt-1.5 ">
                                 <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
                                 <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
                                     <TiLocationArrowOutline size={35} />
@@ -75,7 +75,7 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2 ">
+                            <div className="flex items-center gap-x-2  pt-1.5 ">
                                 <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
                                 <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
                                     <TiLocationArrowOutline size={35} />
