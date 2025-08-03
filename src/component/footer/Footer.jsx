@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-x-4  py-5 group">
                 <MdAttachEmail className='text-white size-6' />
-                <input type="text"  className='border-white border-b-2  px-[10px]  text-white placeholder:text-white' placeholder='Enter Your Email' />
+                <input type="text"  className='border-white border-b-2  outline-0 px-[10px]  text-white placeholder:text-white' placeholder='Enter Your Email' />
                 <button className='font-secondary   font-normal py-[11px] px-[17px] rounded-[30px] bg-white/10 border border-white/10  text-[12 px] text-white  transition-transform duration-300 group-hover:bg-purple-800 '>Sign up</button>
             </div>
         </div>
@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="flex justify-between pt-[37px] pb-[48px] ">
             <div className=""><p className='font-secondary   font-normal    text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
             <div className="flex  gap-x-[54px]">
-                <IoLogoGithub className='size-6  text-white' />
+               <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6  text-white' /></a>
                 <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
                 <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
 

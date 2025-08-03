@@ -25,7 +25,7 @@ const Project = () => {
                         <h2 className=' font-primary font-bold text-[42px]  text-white pt-[12px] pb-[17px] '>Petroil-- a landing page</h2>
                         <p className='font-primary  font-medium   text-[16px] text-white pb-[55px] ' > petroil is a simple landing page with React and tailwind.</p>
                         <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center  group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
-                            <TiLocationArrowOutline size={35} />
+                         <a target='blank' href="https://petrol-react-project.vercel.app/">   <TiLocationArrowOutline size={35} /></a>
                         </div>
                     </div>
                 </div>

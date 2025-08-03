@@ -32,29 +32,29 @@ const Skill = () => {
                     <div className="flex justify-between gap-x-[20px] "> 
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
                             <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma-icon lucide-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" /><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" /><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" /><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" /><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" /></svg></a>
-                            <h2 className='ont-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>Figma</h2>
-                            <div className="py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>Figma</h2>
+                            <div className=" mb-[5px] py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
                             <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><GrHtml5 size={40}  /></a>
-                            <h2 className='ont-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>Html</h2>
-                            <div className="py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>Html</h2>
+                            <div className=" mb-[5px] py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
                             <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><IoLogoCss3 size={40} /></a>
-                            <h2 className='ont-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>CSS</h2>
-                            <div className="py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>CSS</h2>
+                            <div className=" mb-[5px] py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
-                            </div>
+                            </div>f
                         </div>
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
                             <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><FaJs size={40} /></a>
-                            <h2 className='ont-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>JS</h2>
-                            <div className="py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>JS</h2>
+                            <div className=" mb-[5px] py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
@@ -64,28 +64,28 @@ const Skill = () => {
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
                             <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><DiMongodb size ={40} /></a>
                             <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>MongoDB</h2>
-                            <div className="py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <div className="py-[8px] mb-[10px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
                             <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><FaReact size={40} /></a>
                             <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>React</h2>
-                            <div className="py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <div className="py-[8px] mb-[10px]  px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
-                            <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><SiExpress size ={40} /></a>
+                            <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><SiExpress size ={40}  /></a>
                             <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>Express</h2>
-                            <div className=" py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <div className=" mb-[10px]  py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center px-[10px] pb-[8px] pt-[27px] rounded-[20px] bg-[#131313] group hover:translate-y-[-5px] transition-transform duration-300 group-hover:border-2 group-hover:border-purple-800  ">
-                            <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><DiNodejs size={60} /></a>
+                            <a className='text-white transition-transform duration-30 group-hover:text-purple-800 text-[60px] mx-auto group-hover:animate-bounce group-hover:text-primary' href=""><DiNodejs size={40} /></a>
                             <h2 className='font-primary font-bold text-[26px] text-white pt-[8px] pb-[15px]  '>Node JS</h2>
-                            <div className=" py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
+                            <div className=" mb-[10px]  py-[8px] px-[38px] rounded bg-black transition-transform duration-30 group-hover:bg-purple-800">
                                 <p className='font-primary font-bold text-[26px]  text-gray-400 transition-transform duration-30 group-hover:text-white '>50%</p>
                             </div>
                         </div>
