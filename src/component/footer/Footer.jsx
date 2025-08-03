@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='bg-black pt-[79px] '>
         <div className="bg-white/10 py-[114px] flex justify-between    px-12  ">
-        <div className="w-[20%] ">
+        <div className="w-[20%] text-center ">
             <h2 className='font-tittle font-black text-[58px] text-purple-800' >Nabil Islam </h2>
            
         </div>
@@ -52,8 +52,11 @@ const Footer = () => {
             <div className=""><p className='font-secondary   font-normal    text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
             <div className="flex  gap-x-[54px]">
                <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6  text-white' /></a>
-                <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
-                <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
+                     <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
+                     <a target='blank' href="https://www.facebook.com/share/1BAD7hkh9k/?mibextid=wwXIfr">
+                            <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
+                     </a>
+            
 
             </div>
         </div>

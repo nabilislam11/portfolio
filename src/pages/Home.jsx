@@ -32,7 +32,7 @@ const Home = () => {
                     wrapper="span"
                     className='font-primary  font-bold  text-[32px] text-purple-500 '
                     cursor={true}
-                     speed={50}
+                     speed={200}
                     repeat={Infinity}
                     style={{ display: 'inline-block', fontWeight: 600  }}
                   />
