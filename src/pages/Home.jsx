@@ -41,7 +41,7 @@ const Home = () => {
            
             </div>
             <div className="flex gap-x-3.5 group ">
-              <p className='font-primary  font-bold  text-[32px] text-white pb-[98px] '>Download My Resume</p>
+              <p className='font-primary  font-semibold   text-[22px] text-white pb-[98px] '>Download My Resume</p>
               <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
               <a href=""><FaCircleDown size={20} /></a>
               </div>
