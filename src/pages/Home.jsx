@@ -30,7 +30,7 @@ const Home = () => {
                       'Problem Solver', 1000,
                     ]}
                     wrapper="span"
-                    className='font-primary  font-bold  text-[32px] text-purple-600 '
+                    className='font-primary  font-bold  text-[32px] text-purple-500 '
                     cursor={true}
                      speed={50}
                     repeat={Infinity}

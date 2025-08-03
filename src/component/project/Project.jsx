@@ -8,7 +8,7 @@ const Project = () => {
         <div id='Project' className=' py-[98px] ' >
             <div className="text-center  pb-[63px] ">
                 <p className='font-primary  font-normal  text-[16px] text-white pb-[22px] '>Latest Works</p>
-                <h3 className='font-primary font-bold text-[42px]  text-white'>Explore My Popular <samp className='text-[#98c45d]'> Projects</samp></h3>
+                <h3 className='font-primary font-bold text-[42px]  text-white'>Explore My Popular <samp className='text-purple-500 '> Projects</samp></h3>
             </div>
             <div className=" flex flex-col gap-y-[60px] pb-[163px] ">
                             {/* project__part */}
@@ -21,7 +21,7 @@ const Project = () => {
                 </div>
                 <div className="w-[35%] py-[82px] ">
                     <div className=" group">
-                        <p className='font-primary  font-medium   text-[16px] text-[#98c45d] '>Web Design</p>
+                        <p className='font-secondary   font-medium   text-[18px] text-purple-500  '>Web Design</p>
                         <h2 className=' font-primary font-bold text-[42px]  text-white pt-[12px] pb-[17px] '>Petroil-- a landing page</h2>
                         <p className='font-primary  font-medium   text-[16px] text-white pb-[55px] ' > petroil is a simple landing page with React and tailwind.</p>
                         <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center  group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
@@ -34,7 +34,7 @@ const Project = () => {
 
                 <div className="w-[35%] py-[82px] ">
                     <div className="group">
-                        <p className='font-primary  font-medium   text-[16px] text-[#98c45d] '>Web Design</p>
+                        <p className='font-secondary   font-medium   text-[18px] text-purple-500'>Web Design</p>
                         <h2 className=' font-primary font-bold text-[42px]  text-white pt-[12px] pb-[17px] '>ShopHub -- a landing page</h2>
                         <p className='font-primary  font-medium   text-[16px] text-white pb-[55px] ' >"ShopHub - Modern E-commerce Landing Page for Trending Products" </p>
                         <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
@@ -58,7 +58,7 @@ const Project = () => {
                 </div>
                 <div className="w-[35%] py-[82px] ">
                     <div className="group">
-                        <p className='font-primary  font-medium   text-[16px] text-[#98c45d] '>Web Design</p>
+                        <p className='font-secondary   font-medium   text-[18px] text-purple-500'>Web Design</p>
                         <h2 className=' font-primary font-bold text-[42px]  text-white pt-[12px] pb-[17px] '>TCR World a landing page</h2>
                         <p className='font-primary  font-medium   text-[16px] text-white pb-[55px] ' >“TCR World” is a high-performance racing event landing page built with React and Tailwind CSS. It features a dynamic countdown, bold visual aesthetics, and a responsive UI designed to attract users to explore upcoming race events. Deployed seamlessly on Vercel for production-level performance.
 

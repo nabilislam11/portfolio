@@ -21,7 +21,7 @@ const Marque = () => {
                 <Slider {...settings}>
                     <div>
                         <h3>
-                            <div className="flex items-center  justify-between  bg-gray-400 ">
+                            <div className="flex items-center  justify-around  bg-gray-400 ">
                                 <FaLaptopCode className="text-purple-800" size={70} />
                                 <h1 className='font-primary  font-bold  text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
                                 <FaLaptopCode className="text-purple-800 " size={70} />
@@ -31,7 +31,7 @@ const Marque = () => {
 
                     </div>
                     <div>
-                        <div className="flex items-center  justify-between  bg-gray-400 ">
+                        <div className="flex items-center  justify-around   bg-gray-400 ">
                             <FaLaptopCode className="text-purple-800" size={70} />
                             <h1 className='font-primary  font-bold  text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
                             <FaLaptopCode className="text-purple-800 " size={70} />
@@ -39,7 +39,7 @@ const Marque = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="flex items-center  justify-between  bg-gray-400 ">
+                        <div className="flex items-center  justify-around  bg-gray-400 ">
                             <FaLaptopCode className="text-purple-800" size={70} />
                             <h1 className='font-primary  font-bold  text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
                             <FaLaptopCode className="text-purple-800 " size={70} />

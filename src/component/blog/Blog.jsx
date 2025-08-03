@@ -7,7 +7,7 @@ const Blog = () => {
         <div id='Blog' className='py-[108px] '>
             <div className="text-center  pb-[76px] ">
                 <p className='font-primary  font-normal  text-[16px] text-white pb-[30px] '>News & Blog</p>
-                <h3 className='font-primary font-bold text-[42px]  text-white'>Latest News & <samp className='text-[#98c45d]'>Blog</samp></h3>
+                <h3 className='font-primary font-bold text-[42px]  text-white'>Latest News & <samp className='text-purple-500 '>Blog</samp></h3>
             </div>
             {/* full__blog */}
             <div className="flex flex-col gap-y-[30px]">

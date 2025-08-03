@@ -9,7 +9,7 @@ const About = () => {
             <div className=" relative flex justify-between py-[91px] px-[77px] bg-black">
                 <div className="w-[40%] ">
                     <p className='font-primary  font-medium   text-[17px] text-white'>About Me</p>
-                    <h2 className='font-primary font-bold text-[32px] pt-[8px] pb-[16px] text-white   '>Professional <span className='text-[#98c45d]'> Problem Solutions </span>
+                    <h2 className='font-primary font-bold text-[32px] pt-[8px] pb-[16px] text-white   '>Professional <span className='text-purple-500'> Problem Solutions </span>
                         For Digital Products</h2>
                     <p className='font-secondary  font-normal  text-[16px] text-gray-400 pb-[35px] '>
                        I’m a MERN stack developer from Dhaka, weaving ideas into interactive, scalable digital experiences. My code lives where creativity meets logic—turning complex problems into elegant solutions. Whether it’s crafting a sleek interface or engineering robust backend systems, I build with purpose, precision, and a bit of curiosity for the unknown.

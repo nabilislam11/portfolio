@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='bg-black pt-[79px] '>
         <div className="bg-white/10 py-[114px] flex justify-between    px-12  ">
         <div className="w-[20%] ">
-            <h2 className='font-tittle font-black text-[58px] text-purple-800' >Nabil</h2>
+            <h2 className='font-tittle font-black text-[58px] text-purple-800' >Nabil Islam </h2>
            
         </div>
         <div className="w-[30%] ">
