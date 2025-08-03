@@ -11,7 +11,7 @@ const Navbar = () => {
                     </div>
                 <div className=" w-[40%] justify-center   ">
                 <ScrollSpy activeClass=" bg-gray-600 px-6 py-2 rounded-full  " >
-                        <ul className='flex justify-between   space-x-4 backdrop-blur-md bg-white/10 border border-white/10 px-6 py-2 rounded-full text-sm text-white shadow-lg '> 
+                        <ul className='flex justify-between   space-x-4 backdrop-blur-md bg-white/10 border border-white/10 px-6 py-3.5 rounded-full text-sm text-white shadow-lg '> 
                         <li className='font-secondary   font-normal  text-[17px]'><a href="#Home">Home</a></li>
                         <li className='font-secondary   font-normal  text-[17px]'><a href="#Project">Project</a></li>
                         <li className='font-secondary   font-normal  text-[17px]'><a href="#Skill">Skill</a></li>

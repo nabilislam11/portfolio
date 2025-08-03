@@ -15,7 +15,7 @@ const Home = () => {
   return (
   <>
       <div id='Home' className='bg-black '>
-      <div className="w-[1440px]  mx-auto px-4 ">
+      <div className="w-[1440px]  mx-auto px-4 pt-24 ">
         <Navbar />
         <div className="flex justify-between">
           <div className="w-[50%] ">
