@@ -2,7 +2,7 @@ import React from 'react'
 import { FaCode } from "react-icons/fa";
 const Service = () => {
   return (
-    <div className='pt-[103px] pb-[126px] '>
+    <div id='Service' className='pt-[103px] pb-[126px] '>
       <div className="text-center pb-[40px] ">
         <p className=' font-normal font-primary text-gray-400 text-[18px]' >Popular Services</p>
         <h3 className='font-secondary  font-bold text-[42px] text-white w-[602px] mx-auto '>My <span className='text-[#98c45d] '>Special Service </span>For yourBusiness Development</h3>

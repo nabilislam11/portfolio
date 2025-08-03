@@ -4,7 +4,7 @@ import blog from '../../assets/blog.png'
 
 const Blog = () => {
     return (
-        <div className='py-[108px] '>
+        <div id='Blog' className='py-[108px] '>
             <div className="text-center  pb-[76px] ">
                 <p className='font-primary  font-normal  text-[16px] text-white pb-[30px] '>News & Blog</p>
                 <h3 className='font-primary font-bold text-[42px]  text-white'>Latest News & <samp className='text-[#98c45d]'>Blog</samp></h3>
@@ -13,7 +13,7 @@ const Blog = () => {
             <div className="flex flex-col gap-y-[30px]">
                 {/* frist__part */}
                 <div className="flex justify-center gap-x-[21px]  ">
-                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px]   bg-white/10 ">
+                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
                         <div className="w-[30%] ">
                             <img src={blog} alt="" />
                         </div>
@@ -21,16 +21,16 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2  pt-1.5">
+                            <div className="flex items-center gap-x-3  pt-1.5">
                                 <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
-                                <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
+                                <div className=" flex w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 items-center group-hover:text-white   bg-white/10 border border-white/10 text-purple-500  justify-center ">
                                     <TiLocationArrowOutline size={35} />
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px]   bg-white/10 ">
+                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
                         <div className="w-[30%] ">
                             <img src={blog} alt="" />
                         </div>
@@ -38,9 +38,9 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2 pt-1.5 ">
+                            <div className="flex items-center gap-x-3 pt-1.5 ">
                                 <p className='font-primary font-normal text-[16px] text-white'>Read More</p>
-                                <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
+                                <div className=" flex items-center w-[49px] h-[49px] rounded-full group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 justify-center ">
                                     <TiLocationArrowOutline size={35} />
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ const Blog = () => {
                 </div>
                 {/* second__part */}
                 <div className="flex justify-center gap-x-[21px]  ">
-                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px]   bg-white/10 ">
+                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
                         <div className="w-[30%] ">
                             <img src={blog} alt="" />
                         </div>
@@ -58,16 +58,16 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2  pt-1.5 ">
+                            <div className="flex items-center gap-x-3  pt-1.5 ">
                                 <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
-                                <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
+                                <div className="w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 flex items-center group-hover:text-white   bg-white/10 border border-white/10 text-purple-500  justify-center ">
                                     <TiLocationArrowOutline size={35} />
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px]   bg-white/10 ">
+                    <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
                         <div className="w-[30%] ">
                             <img src={blog} alt="" />
                         </div>
@@ -75,9 +75,10 @@ const Blog = () => {
                             <p className='font-primary  font-normal  text-[16px] text-white'>12 Mar 2025</p>
                             <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
 
-                            <div className="flex items-center gap-x-2  pt-1.5 ">
+                            <div className="flex items-center gap-x-3  pt-1.5 ">
                                 <p className='font-primary  font-normal  text-[16px] text-white'>Read More</p>
-                                <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
+                                <div className="w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 flex items-center group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 
+                                justify-center ">
                                     <TiLocationArrowOutline size={35} />
                                 </div>
                             </div>

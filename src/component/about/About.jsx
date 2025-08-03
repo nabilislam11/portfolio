@@ -5,7 +5,7 @@ import code from '../../assets/code.gif';
 
 const About = () => {
     return (
-        <div className='py-[149px] '>
+        <div id='About' className='py-[149px] '>
             <div className=" relative flex justify-between py-[91px] px-[77px] bg-black">
                 <div className="w-[40%] ">
                     <p className='font-primary  font-medium   text-[17px] text-white'>About Me</p>

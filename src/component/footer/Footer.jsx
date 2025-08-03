@@ -18,12 +18,12 @@ const Footer = () => {
             <h2 className='font-secondary   font-semibold  text-[22px] text-white' >Quick Links</h2>
              <div className="flex  py-5"> 
                 <ul className='flex gap-x-5 '> 
-                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="">Home</a></li>
-                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="">About</a></li>
-                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="">Service</a></li>
-                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="">Skill</a></li>
-                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="">Project</a></li>
-                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="">Blog</a></li>
+                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Home">Home</a></li>
+                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#About">About</a></li>
+                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="Service">Service</a></li>
+                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Skill">Skill</a></li>
+                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Project">Project</a></li>
+                    <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Blog">Blog</a></li>
                 </ul>
             </div>
             <div className="flex items-center gap-x-4  py-5 group">

@@ -13,7 +13,7 @@ import Footer from '../component/footer/Footer';
 const Home = () => {
   return (
   <>
-      <div className='bg-black '>
+      <div id='Home' className='bg-black '>
       <div className="w-[1440px]  mx-auto px-4 ">
         <Navbar />
         <div className="flex justify-between">
@@ -24,9 +24,9 @@ const Home = () => {
               <h3 className='font-primary  font-bold  text-[32px] text-white'>I m a <span className='font-primary  font-bold  text-[32px] text-[#98c45d]'>MERN Stack Developer</span></h3>
               <p className='font-primary  font-bold  text-[32px] text-gray-400 pt-[27px] pb-[54px] '>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites</p>
             </div>
-            <div className="flex gap-x-3.5">
+            <div className="flex gap-x-3.5 group ">
               <p className='font-primary  font-bold  text-[32px] text-white pb-[98px] '>Download My Resume</p>
-              <div className="w-[49px] h-[49px] rounded-full bg-[#98c45d] flex items-center justify-center text-white ' ">
+              <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
               <a href=""><FaCircleDown size={20} /></a>
 
               </div>

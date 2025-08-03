@@ -5,17 +5,19 @@ import ScrollSpy from 'react-scrollspy-navigation';
 
 const Navbar = () => {
     return (
-            <div className=' flex justify-between  items-center  '>
+            <div className=' flex justify-between  items-center fixed left-0 top-0 w-full z-9999   '>
                 <div className="w-[25%] "> <h1 className='font-tittle  font-bold text-[35px] text-gray-600  '>
-
-                    <img className=' w-[90px] h-[90px]   ' src={logo} alt="#logg" /></h1></div>
+                    <img className=' w-[90px] h-[90px]   ' src={logo} alt="#logg" /></h1>
+                    </div>
                 <div className=" w-[40%] justify-center   ">
-                <ScrollSpy activeClass=" bg-red-500 " >
-                        <ul className='flex justify-between   space-x-4 backdrop-blur-md bg-white/10 border border-white/10 px-6 py-2 rounded-full text-sm text-white shadow-lg '> <li className='font-secondary   font-normal  text-[17px]'><a href="#home">Home</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="">Project</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="">Skill</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="">Service</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="">About</a></li>
+                <ScrollSpy activeClass=" bg-gray-600 px-6 py-2 rounded-full  " >
+                        <ul className='flex justify-between   space-x-4 backdrop-blur-md bg-white/10 border border-white/10 px-6 py-2 rounded-full text-sm text-white shadow-lg '> 
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Home">Home</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Project">Project</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Skill">Skill</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Service">Service</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Blog">Blog</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#About">About</a></li>
                     </ul>
                 </ScrollSpy>
                 </div>
