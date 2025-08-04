@@ -5,7 +5,7 @@ import ScrollSpy from 'react-scrollspy-navigation';
 
 const Navbar = () => {
     return (
-            <div className=' flex justify-between  items-center mx-auto fixed left-0 top-0 w-full z-9999  bg-black  '>
+            <div className=' flex justify-between  items-center px-8 mx-auto fixed left-0 top-0 w-full z-9999  bg-black  '>
                 <div className="w-[25%] "> <h1 className='font-tittle  font-bold text-[35px] text-gray-600  '>
                     <img className=' w-[90px] h-[90px]   ' src={logo} alt="#logg" /></h1>
                     </div>

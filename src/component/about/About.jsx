@@ -2,7 +2,8 @@ import React from 'react'
 import { FaCode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import code from '../../assets/code.gif';
-
+import gif2 from '../../assets/gif2.png'
+import code3 from '../../assets/code3.webp'
 const About = () => {
     return (
         <div id='About' className='py-[149px] '>
@@ -44,13 +45,13 @@ const About = () => {
                         </div>
                 </div>
                 <div className="w-[10%] text-[#58c4dc] "><FaReact size={100} /></div>
-                <div className="w-[30%]  ">
-                    <img className='w-full h-full  ' src={code} alt="" />
+                <div className="w-[40%]  ">
+                    <img className='w-full h-full  ' src={code3} alt="" />
                      <div className="text-white ">
-                        <div className=" absolute top-[192px] right-[396px] bg-gray-400 rounded-full     py-4 px-3.5 ">
+                        <div className=" absolute top-[222px] right-[526px] bg-gray-300 rounded-full     py-4 px-3.5 ">
                             <h3 className='font-semibold font-secondary text-[16px] text-black  ' >MERN Stack Developer</h3>
                         </div>
-                        <div className=" absolute top-[292px] right-[396px] bg-gray-400 rounded-full     py-4 px-3.5 ">
+                        <div className=" absolute top-[305px] right-[496px] bg-gray-300 rounded-full     py-4 px-3.5 ">
                             <h3 className='font-semibold font-secondary text-[16px] text-black  ' >Nabil Islam Hamza</h3>
                         </div>
                     </div>

@@ -17,11 +17,11 @@ const Home = () => {
       <div id='Home' className='bg-black '>
       <div className="w-[1440px]  mx-auto px-4 pt-24 ">
         <Navbar />
-        <div className="flex justify-between">
+        <div className="flex justify-around items-center  pt-[109px] pb-[100px] ">
           <div className="w-[50%] ">
             <div className="">
-              <h2 className='font-tittle font-bold  text-[98px] text-white pt-[27px] pb-[12px]'>Nabil Islam</h2>
-                 <div className="font-secondary font-medium  text-[32px] text-gray-400 ">
+              <h2 className='font-tittle font-bold  text-[98px] text-white  pb-[12px]'>Nabil Islam</h2>
+                 <div className="font-secondary font-medium  text-[32px] text-white ">
                   Hello I m{' '}
                   <TypeAnimation
                     sequence={[
@@ -49,8 +49,8 @@ const Home = () => {
             </div>
 
           <div className="w-[50%]     ">
-            <div className="w-[350px] ms-auto h-[350px] pt-[109px] rounded-full ">
-             <img src={pic} alt="" />
+            <div className="   ">
+             <img className=' w-full h-[90%] object-cover rounded-[250px] ' src={pic} alt="" />
             </div>
           </div>
         </div>

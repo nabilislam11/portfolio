@@ -11,7 +11,7 @@ import { DiNodejs } from "react-icons/di";
 const Skill = () => {
     return (
         <div id='Skill' className='py-[107px] '>
-            <div className="flex justify-between  py-[74px]  bg-white/10 rounded-2xl px-[90px] ">
+            <div className="flex justify-between  pt-[74px]  bg-white/10 rounded-2xl px-[90px] ">
                 <div className="w-[30%] py-[125px]  ">
                     <p className='font-primary  font-normal  text-[16px] text-gray-400'>My Skill</p>
                     <h3 className='font-primary font-bold text-[32px]  text-white '>Let’s Explore Popular <samp className='text-purple-500'>Skills & Experience</samp> </h3>

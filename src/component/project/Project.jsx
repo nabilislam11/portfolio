@@ -10,9 +10,9 @@ const Project = () => {
                 <p className='font-primary  font-normal  text-[16px] text-white pb-[22px] '>Latest Works</p>
                 <h3 className='font-primary font-bold text-[42px]  text-white'>Explore My Popular <samp className='text-purple-500 '> Projects</samp></h3>
             </div>
-            <div className=" flex flex-col gap-y-[60px] pb-[163px] ">
+            <div className=" flex flex-col  gap-y-[60px] pb-[163px] ">
                             {/* project__part */}
-            <div className="flex items-center justify-between  ">
+            <div className="flex items-center justify-around  ">
                 {/* overflow__part_vidoe */}
                 <div className="w-[45%]   ">
                     <div className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
@@ -30,7 +30,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-between  ">
+            <div className="flex items-center justify-around  ">
 
                 <div className="w-[35%] py-[82px] ">
                     <div className="group">
@@ -49,7 +49,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-             <div className="flex items-center justify-between  ">
+             <div className="flex items-center justify-around  ">
                 {/* overflow__part_vidoe */}
                 <div className="w-[45%]   ">
                     <div className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
