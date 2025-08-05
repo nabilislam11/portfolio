@@ -52,7 +52,7 @@ const Footer = () => {
             <div className="flex justify-between pt-[37px] pb-[48px] ">
                 <div className=""><p className='font-secondary   font-normal    text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
                 <div className="flex  gap-x-[54px]">
-                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6  text-white' /></a>
+                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6  bg-black text-white' /></a>
                     <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
                     <a target='blank' href="https://www.facebook.com/share/1BAD7hkh9k/?mibextid=wwXIfr">
                         <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />

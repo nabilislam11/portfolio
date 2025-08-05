@@ -10,14 +10,14 @@ const Navbar = () => {
                     <img className=' w-[90px] h-[90px]   ' src={logo} alt="#logg" /></h1>
                     </div>
                 <div className=" w-[40%] justify-center   ">
-                <ScrollSpy activeClass=" bg-gray-600 px-6 py-2 rounded-full  " >
-                        <ul className='flex justify-between   space-x-4 backdrop-blur-md bg-white/10 border border-white/10 px-6 py-3.5 rounded-full text-sm text-white shadow-lg '> 
+                <ScrollSpy behavior='smooth' activeClass=" bg-gray-600 px-6 py-2 rounded-full  border-2   " >
+                        <ul className='flex justify-around  items-center  space-x-4 backdrop-blur-md bg-white/10 border-2 border-white/10 px-6 py-4 rounded-full text-sm text-white shadow-lg '> 
                         <li className='font-secondary   font-normal  text-[17px]'><a href="#Home">Home</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Project">Project</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Skill">Skill</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Service">Service</a></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Blog">Blog</a></li>
                         <li className='font-secondary   font-normal  text-[17px]'><a href="#About">About</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Service">Service</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Skill">Skill</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Project">Project</a></li>
+                        <li className='font-secondary   font-normal  text-[17px]'><a href="#Blog">Blog</a></li>
                     </ul>
                 </ScrollSpy>
                 </div>
