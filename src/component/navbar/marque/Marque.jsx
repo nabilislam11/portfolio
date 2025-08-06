@@ -11,7 +11,7 @@ const Marque = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 9000,
+        speed: 15000,
         autoplaySpeed: 10,
         cssEase: "linear"
     };
