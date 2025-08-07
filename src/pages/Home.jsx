@@ -15,13 +15,13 @@ const Home = () => {
   return (
   <>
       <div id='Home' className='bg-black '>
-      <div className="w-[1440px]  mx-auto px-4 pt-24 ">
+      <div className="w-full  mx-auto md:w-[1440px] md:mx-auto  px-4 ">
         <Navbar />
-        <div className="flex justify-around items-center  pt-[109px] pb-[100px] ">
+        <div className=" flex md:flex-row md:justify-around md:items-center  md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] ">
           <div className="w-[50%] ">
             <div className="">
-              <h2 className='font-tittle font-bold  text-[98px] text-white  pb-[12px]'>Nabil Islam</h2>
-                 <div className="font-secondary font-medium  text-[32px] text-white ">
+              <h2 className='font-tittle font-bold text-[57px] md:text-[98px] text-white pb-[10px] md:pb-[12px]'>Nabil Islam</h2>
+                 <div className="font-secondary font-medium text-[18px]  md:text-[32px] text-white ">
                   Hello I m{' '}
                   <TypeAnimation
                     sequence={[
@@ -30,14 +30,14 @@ const Home = () => {
                       'Problem Solver', 1000,
                     ]}
                     wrapper="span"
-                    className='font-primary  font-bold  text-[32px] text-purple-500 '
+                    className='font-primary  font-bold text-[22px]  md:text-[32px] text-purple-500 '
                     cursor={true}
                      speed={200}
                     repeat={Infinity}
                     style={{ display: 'inline-block', fontWeight: 600  }}
                   />
                 </div>
-              <p className='font-primary  font-bold  text-[32px] text-gray-400 pt-[27px] pb-[54px] '>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites</p>
+              <p className='font-primary  font-bold md:w-[450px] md:text-[32px] text-gray-400 md:pt-[27px] md:pb-[54px] text-[18px] pt-[9px] pb-[19px] w-[355px] '>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites</p>
            
             </div>
             <div className="flex gap-x-3.5 group pb-[98px] items-center ">
@@ -48,15 +48,13 @@ const Home = () => {
             </div>
             </div>
 
-          <div className="w-[50%]     ">
-            <div className="   ">
+          <div className="md:w-[50%]  w-full    ">
              <img className=' w-full h-[90%] object-cover rounded-[250px] ' src={pic} alt="" />
-            </div>
           </div>
         </div>
       </div>
         <Marque/>
-        <div className="w-[1440px]  mx-auto px-4">
+        <div className="w-full  mx-auto md:w-[1440px] md:mx-auto   px-4">
           <About/>
           <Service/>
           <Skill/>

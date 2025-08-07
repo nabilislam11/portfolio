@@ -17,15 +17,15 @@ const Marque = () => {
     };
     return (
         <div>
-            <div className="slider-container">
+            <div className="slider-container ">
                 <Slider {...settings}>
                     <div>
                         <h3>
-                            <div className="flex items-center  justify-around  bg-gray-400 ">
+                            <div className="flex items-center  justify-around  bg-gray-400  ">
                                 <FaLaptopCode className="text-purple-800" size={70} />
-                                <h1 className='font-primary  font-bold  text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
+                                <h1 className='font-primary  font-bold  md:text-[70px]  text-purple-800 '>WEB DEVELOPER</h1>
                                 <FaLaptopCode className="text-purple-800 " size={70} />
-                                <p className='font-primary  font-bold  text-[70px] text-purple-800'>Designer</p>
+                                <p className='font-primary  font-bold  md:text-[70px] text-purple-800'>Designer</p>
                             </div>
                         </h3>
 
@@ -33,17 +33,17 @@ const Marque = () => {
                     <div>
                         <div className="flex items-center  justify-around   bg-gray-400 ">
                             <FaLaptopCode className="text-purple-800" size={70} />
-                            <h1 className='font-primary  font-bold  text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
+                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
                             <FaLaptopCode className="text-purple-800 " size={70} />
-                            <p className='font-primary  font-bold  text-[70px] text-purple-800'>Designer</p>
+                            <p className='font-primary  font-bold  md:text-[70px] text-purple-800'>Designer</p>
                         </div>
                     </div>
                     <div>
                         <div className="flex items-center  justify-around  bg-gray-400 ">
                             <FaLaptopCode className="text-purple-800" size={70} />
-                            <h1 className='font-primary  font-bold  text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
+                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
                             <FaLaptopCode className="text-purple-800 " size={70} />
-                            <p className='font-primary  font-bold  text-[70px] text-purple-800'>Designer</p>
+                            <p className='font-primary  font-bold  md:text-[70px] text-purple-800'>Designer</p>
                         </div>
                     </div>
 

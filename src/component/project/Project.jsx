@@ -26,10 +26,10 @@ const Project = () => {
                         <h2 className=' font-primary font-bold text-[42px]  text-white pt-[12px] pb-[17px] '>Petroil-- a landing page</h2>
                         <p className='font-primary  font-medium   text-[16px] text-white pb-[55px] ' > petroil is a simple landing page with React and tailwind.</p>
                           <div className="flex  items-center gap-x-[20px]">
-                            <div className="w-[52px] h-[52px] rounded-2xl flex items-center justify-center  group-hover:border-purple-600 bg-white/10 border border-white/10 ">
+                            <div className="w-[52px] h-[52px] rounded-2xl flex items-center justify-center  transition-all duration-300 group-hover:border-purple-600 bg-white/10 border border-white/10 ">
                                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-9  text-white' /></a>
                             </div>
-                        <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
+                        <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center group-hover:bg-purple-800 transition-all duration-300  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
                             <TiLocationArrowOutline size={35} />
                         </div>
                         </div>
@@ -44,10 +44,10 @@ const Project = () => {
                         <h2 className=' font-primary font-bold text-[42px]  text-white pt-[12px] pb-[17px] '>ShopHub -- a landing page</h2>
                         <p className='font-primary  font-medium   text-[16px] text-white pb-[55px] ' >"ShopHub - Modern E-commerce Landing Page for Trending Products" </p>
                         <div className="flex  items-center gap-x-[20px]">
-                            <div className="w-[52px] h-[52px] rounded-2xl  flex items-center justify-center  group-hover:border-purple-600 bg-white/10 border border-white/10 ">
+                            <div className="w-[52px] h-[52px] rounded-2xl  flex items-center justify-center transition-all duration-300  group-hover:border-purple-600 bg-white/10 border border-white/10 ">
                                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-9  text-white' /></a>
                             </div>
-                        <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
+                        <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
                             <TiLocationArrowOutline size={35} />
                         </div>
                         </div>
@@ -75,10 +75,10 @@ const Project = () => {
 
                         </p>
                           <div className="flex  items-center gap-x-[20px]">
-                            <div className="w-[52px] h-[52px] rounded-2xl  flex items-center justify-center  group-hover:border-purple-600 bg-white/10 border border-white/10 ">
+                            <div className="w-[52px] h-[52px] rounded-2xl  flex items-center justify-center transition-all duration-300  group-hover:border-purple-600 bg-white/10 border border-white/10 ">
                                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-9  text-white' /></a>
                             </div>
-                        <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
+                        <div className="w-[49px] h-[49px] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500 ">
                             <TiLocationArrowOutline size={35} />
                         </div>
                         </div>
@@ -87,9 +87,9 @@ const Project = () => {
             </div>
                 
             </div>
-            <div className="text-center flex justify-center items-center gap-x-[14px]">
+            <div className="text-center flex justify-center items-center gap-x-[14px] group ">
                 <h5 className='font-primary font-bold text-[42px]  text-white'>View More</h5>
-                <div className="w-[49px] h-[49px] rounded-full bg-purple-800 flex items-center text-white justify-center ">
+                <div className="w-[49px] h-[49px] rounded-full  flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800  group-hover:text-white   bg-white/10 border border-white/10 text-purple-500  " >
                             <TiLocationArrowOutline size={35} />
                         </div>
             </div>

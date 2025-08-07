@@ -9,7 +9,7 @@ const Service = () => {
       </div> 
       {/* top__part */}
       <div className= " flex justify-around pb-24 ">
-           <div className=" group transition-transform duration-300 flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[45px] px-[20px] gap-x-[102px] border-2 hover:border-2 hover:border-purple-800 " >
+           <div className=" group flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[45px] px-[20px] gap-x-[102px] transition-all   duration-300  border-2  hover:border-2 hover:border-purple-800 " >
         <div className="gap-y-2">
           <h3 className='font-secondary  font-bold text-[32px] text-white w-[385px]'>Responsive Web Design</h3>
           <p className='font-normal font-primary text-gray-400 text-[16px]'>Responsive web design for any device</p>
@@ -30,7 +30,7 @@ const Service = () => {
       </div>
       {/* bottom__part */}
       <div className="flex justify-around ">
-           <div className="flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[35px] px-[20px] gap-x-[102px] group transition-transform duration-300  border-2  hover:border-2 hover:border-purple-800 " >
+           <div className="flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[35px] px-[20px] gap-x-[102px] group transition-all   duration-300  border-2  hover:border-2 hover:border-purple-800 " >
         <div className="gap-y-2">
           <h3 className='font-secondary  font-bold text-[32px] text-white w-[385px]'>Powerful Backend Dev</h3>
           <p className='font-normal font-primary text-gray-400 text-[16px]'>unleash the power of express and node js with me</p>
