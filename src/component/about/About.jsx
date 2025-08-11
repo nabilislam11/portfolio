@@ -6,7 +6,10 @@ import gif2 from '../../assets/gif2.png'
 import CountUp from 'react-countup';
 import code3 from '../../assets/code3.webp'
 import { useInView } from "react-intersection-observer";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const About = () => {
+     AOS.init();
  const { ref, inView } = useInView({
     /* Optional options */
     threshold: 0,
@@ -55,10 +58,10 @@ const About = () => {
                 <div className="md:w-[40%] w-full ">
                     <img className='md:w-full md:h-full  ' src={code3} alt="" />
                     <div className="text-white ">
-                        <div className=" absolute top-[222px] right-[526px] bg-gray-300 rounded-full     py-4 px-3.5 ">
+                        <div data-aos="fade-left" data-aos-delay="200"   className=" absolute top-[222px] right-[526px] bg-gray-300 rounded-full  z-10   py-4 px-3.5 ">
                             <h3 className='font-semibold font-secondary text-[16px] text-black  ' >MERN Stack Developer</h3>
                         </div>
-                        <div className=" absolute top-[305px] right-[496px] bg-gray-300 rounded-full     py-4 px-3.5 ">
+                        <div data-aos="fade-left" data-aos-delay="220" className=" absolute top-[305px] right-[496px] bg-gray-300 rounded-full     py-4 px-3.5 ">
                             <h3 className='font-semibold font-secondary text-[16px] text-black  ' >Nabil Islam Hamza</h3>
                         </div>
                     </div>

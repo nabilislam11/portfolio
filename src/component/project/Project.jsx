@@ -15,9 +15,11 @@ const Project = () => {
                             {/* project__part */}
             <div className="flex items-center justify-around  ">
                 {/* overflow__part_vidoe */}
-                <div className="w-[45%]   ">
-                    <div className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
-                        <img src={project1} alt="" />
+                <div className="w-[45%] ">
+                    <div data-aos="flip-left"  className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
+                        <div className=" rounded-full">
+                            <img src={project1} alt="" />
+                        </div>
                     </div>
                 </div>
                 <div className="w-[35%] py-[82px] ">
@@ -55,7 +57,7 @@ const Project = () => {
                 </div>
                 {/* overflow__part_vidoe */}
                 <div className="w-[45%]   ">
-                    <div className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
+                    <div data-aos="flip-right"  className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
                         <img src={project2} alt="" />
                     </div>
                 </div>
@@ -63,7 +65,7 @@ const Project = () => {
              <div className="flex items-center justify-around  ">
                 {/* overflow__part_vidoe */}
                 <div className="w-[45%]   ">
-                    <div className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
+                    <div data-aos="flip-left" className="h-[500px] overflow-y-auto bg-gray-700  rounded-2xl ">
                         <img src={project3} alt="" />
                     </div>
                 </div>
