@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../component/navbar/Navbar'
 import pic from "../assets/pic.jpg"
+
 import { FaCircleDown } from "react-icons/fa6";
 import Marque from '../component/navbar/marque/Marque';
 import About from '../component/about/About';
@@ -10,6 +11,7 @@ import Project from '../component/project/Project';
 import Blog from '../component/blog/Blog';
 import Footer from '../component/footer/Footer';
 import { TypeAnimation } from 'react-type-animation';
+import profile from '../assets/profile.jpg'
 
 const Home = () => {
   return (
@@ -49,7 +51,7 @@ const Home = () => {
             </div>
 
           <div className="md:w-[50%]  w-full    ">
-             <img className=' w-full h-[90%] object-cover rounded-[250px] ' src={pic} alt="" />
+             <img className=' w-full h-[90%] object-cover rounded-[250px] ' src={profile} alt="" />
           </div>
         </div>
       </div>
