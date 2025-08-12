@@ -12,6 +12,7 @@ import Blog from '../component/blog/Blog';
 import Footer from '../component/footer/Footer';
 import { TypeAnimation } from 'react-type-animation';
 import profile from '../assets/profile.jpg'
+import Contact from '../component/contact/Contact';
 
 const Home = () => {
   return (

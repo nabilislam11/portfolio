@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
                 <div className="  hidden  w-[25%]  md:flex flex-row justify-end  items-center gap-x-1.5  ">
                     <p className='font-secondary   font-medium  text-white  text-[20px]'>Let’s Talk</p>
-                    <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-800  items-center '  href=""><TbVectorBezierCircle size={20} /></a>
+                    <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-600  items-center '  href=""><TbVectorBezierCircle size={20} /></a>
                 </div>
                 <div className=" block lg:hidden ">
                     {show?    
