@@ -21,29 +21,29 @@ const Marque = () => {
                 <Slider {...settings}>
                     <div>
                         <h3>
-                            <div className="flex items-center  justify-around  bg-gray-400  ">
-                                <FaLaptopCode className="text-purple-800" size={70} />
-                                <h1 className='font-primary  font-bold  md:text-[70px]  text-purple-800 '>WEB DEVELOPER</h1>
-                                <FaLaptopCode className="text-purple-800 " size={70} />
-                                <p className='font-primary  font-bold  md:text-[70px] text-purple-800'>Designer</p>
+                            <div className="flex items-center  justify-around   ">
+                                <FaLaptopCode className="text-purple-600" size={70} />
+                                <h1 className='font-primary  font-bold  md:text-[70px]  text-purple-600 '>WEB DEVELOPER</h1>
+                                <FaLaptopCode className="text-purple-600 " size={70} />
+                                <p className='font-primary  font-bold  md:text-[70px] text-purple-600'>Designer</p>
                             </div>
                         </h3>
 
                     </div>
                     <div>
-                        <div className="flex items-center  justify-around   bg-gray-400 ">
-                            <FaLaptopCode className="text-purple-800" size={70} />
-                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
-                            <FaLaptopCode className="text-purple-800 " size={70} />
-                            <p className='font-primary  font-bold  md:text-[70px] text-purple-800'>Designer</p>
+                        <div className="flex items-center  justify-around  ">
+                            <FaLaptopCode className="text-purple-600" size={70} />
+                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-600 '>WEB DEVELOPER</h1>
+                            <FaLaptopCode className="text-purple-600 " size={70} />
+                            <p className='font-primary  font-bold  md:text-[70px] text-purple-600'>Designer</p>
                         </div>
                     </div>
                     <div>
-                        <div className="flex items-center  justify-around  bg-gray-400 ">
-                            <FaLaptopCode className="text-purple-800" size={70} />
-                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-800 '>WEB DEVELOPER</h1>
-                            <FaLaptopCode className="text-purple-800 " size={70} />
-                            <p className='font-primary  font-bold  md:text-[70px] text-purple-800'>Designer</p>
+                        <div className="flex items-center  justify-around   ">
+                            <FaLaptopCode className="text-purple-600" size={70} />
+                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-600 '>WEB DEVELOPER</h1>
+                            <FaLaptopCode className="text-purple-600 " size={70} />
+                            <p className='font-primary  font-bold  md:text-[70px] text-purple-600'>Designer</p>
                         </div>
                     </div>
 
