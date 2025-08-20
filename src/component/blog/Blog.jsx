@@ -4,7 +4,7 @@ import blog from '../../assets/blog.png'
 
 const Blog = () => {
     return (
-        <div id='Blog' className='py-[108px] '>
+        <div id='Blog' className='py-[108px]'>
             <div className="text-center  pb-[76px] ">
                 <p className='font-primary  font-normal  text-[16px] text-white pb-[30px] '>News & Blog</p>
                 <h3 className='font-primary font-bold text-[42px]  text-white'>Latest News & <samp className='text-purple-500 '>Blog</samp></h3>
