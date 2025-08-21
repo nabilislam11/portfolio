@@ -34,22 +34,22 @@ const Footer = () => {
                         <div className="flex flex-col gap-y-2.5 ">
                             <h2 className='text-white  '>
                                 Your Message</h2>
-                            <input className='bg-black text-white  w-[500px] pb-[250px] pt-4 px-4 rounded-[10px] outline-0 ' type="text" placeholder='Enter Your Message' />
+                            <input className='bg-black text-white w-[500px] pb-[250px] pt-4 px-4 rounded-[10px] outline-0' type="text" placeholder='Enter Your Message' />
                         </div>
                     </div>
 
                 </div>
-                <div className="w-[45%] flex flex-col justify-between  gap-y-9 ">
+                <div className="w-[45%] flex flex-col justify-between gap-y-9 ">
                     <div className="">
-                        <h2 className='font-secondary   font-semibold  text-[22px] text-white' >Quick Links</h2>
+                        <h2 className='font-secondary font-semibold text-[22px] text-white' >Quick Links</h2>
                         <div className="flex  py-5">
                             <ul className='flex gap-x-5 '>
-                                <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Home">Home</a></li>
-                                <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#About">About</a></li>
-                                <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="Service">Service</a></li>
-                                <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Skill">Skill</a></li>
-                                <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Project">Project</a></li>
-                                <li className='font-secondary font-medium  text-[17px] text-gray-400'><a href="#Blog">Blog</a></li>
+                                <li className='font-secondary font-medium text-[17px] text-gray-400'><a href="#Home">Home</a></li>
+                                <li className='font-secondary font-medium text-[17px] text-gray-400'><a href="#About">About</a></li>
+                                <li className='font-secondary font-medium text-[17px] text-gray-400'><a href="Service">Service</a></li>
+                                <li className='font-secondary font-medium text-[17px] text-gray-400'><a href="#Skill">Skill</a></li>
+                                <li className='font-secondary font-medium text-[17px] text-gray-400'><a href="#Project">Project</a></li>
+                                <li className='font-secondary font-medium text-[17px] text-gray-400'><a href="#Blog">Blog</a></li>
                             </ul>
                         </div>
                         <div className="flex items-center gap-x-4  py-5 group">
@@ -59,7 +59,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col  gap-y-2.5  ">
-                        <h2 className='font-secondary   font-semibold  text-[22px] text-white'>Address</h2>
+                        <h2 className='font-secondary font-semibold text-[22px] text-white'>Address</h2>
                         <div className="flex gap-x-2.5 w-[285px]">
                             <IoLocationSharp className='text-purple-800 size-12  ' />
                             <p className='font-medium font-secondary text-[16px] text-white '>HOUSE NO. 377,ASHKONA , AIRPORT, DHAKA 1230,
@@ -78,9 +78,9 @@ const Footer = () => {
 
             </div>
             <div className="flex justify-between pt-[37px] pb-[48px] ">
-                <div className=""><p className='font-secondary   font-normal    text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
+                <div className=""><p className='font-secondary font-normal text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
                 <div className="flex  gap-x-[54px]">
-                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6  bg-black text-white' /></a>
+                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6 bg-black text-white' /></a>
                     <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
                     <a target='blank' href="https://www.facebook.com/share/1BAD7hkh9k/?mibextid=wwXIfr">
                         <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />

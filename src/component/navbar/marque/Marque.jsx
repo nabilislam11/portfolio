@@ -3,27 +3,20 @@ import { FaLaptopCode } from 'react-icons/fa6'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Marquee from "react-fast-marquee";
 const Marque = () => {
-    const settings = {
-        
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 20000,
-        autoplaySpeed: 10,
-        cssEase: "linear"
-    };
+
     return (
         <div>
+
             <div className="slider-container ">
-                <Slider {...settings}>
+                <Marquee className=' gap-x-50 '>
+
                     <div>
                         <h3>
-                            <div className="flex items-center  justify-around   ">
+                            <div className="flex items-center  justify-around  gap-x-15  ">
                                 <FaLaptopCode className="text-purple-600" size={70} />
-                                <h1 className='font-primary  font-bold  md:text-[70px]  text-purple-600 '>WEB DEVELOPER</h1>
+                                <h1 className='font-primary  font-bold  md:text-[70px]  text-purple-600 '> MERN STACK DEVELOPER</h1>
                                 <FaLaptopCode className="text-purple-600 " size={70} />
                                 <p className='font-primary  font-bold  md:text-[70px] text-purple-600'>Designer</p>
                             </div>
@@ -31,7 +24,7 @@ const Marque = () => {
 
                     </div>
                     <div>
-                        <div className="flex items-center  justify-around  ">
+                        <div className="flex items-center  justify-around gap-x-15 ">
                             <FaLaptopCode className="text-purple-600" size={70} />
                             <h1 className='font-primary  font-bold  md:text-[70px] text-purple-600 '>WEB DEVELOPER</h1>
                             <FaLaptopCode className="text-purple-600 " size={70} />
@@ -39,15 +32,16 @@ const Marque = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="flex items-center  justify-around   ">
+                        <div className="flex items-center  justify-around gap-x-15 ">
                             <FaLaptopCode className="text-purple-600" size={70} />
-                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-600 '>WEB DEVELOPER</h1>
+                            <h1 className='font-primary  font-bold  md:text-[70px] text-purple-600 '>APP DEVELOPER</h1>
                             <FaLaptopCode className="text-purple-600 " size={70} />
-                            <p className='font-primary  font-bold  md:text-[70px] text-purple-600'>Designer</p>
+                            <p className='font-primary  font-bold  md:text-[70px] text-purple-600'></p>
                         </div>
                     </div>
+                </Marquee>
 
-                </Slider>
+
             </div>
         </div>
     )

@@ -16,24 +16,25 @@ const Navbar = () => {
                 <div className=" w-[40%] justify-center  hidden md:block  ">
                 <ScrollSpy behavior='smooth' activeClass=" bg-gray-600 px-6 py-2 rounded-full  border-2   " >
                         <ul className='md:flex md:flex-row md:justify-around  items-center  space-x-4 backdrop-blur-md bg-white/10 border-2 border-white/10 px-6 py-4 rounded-full text-sm text-white shadow-lg   '> 
-                        <li className='font-secondary   font-normal  text-[17px]'><NavLink to="/">Home</NavLink></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><NavLink to="/about">About</NavLink></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><NavLink to="/service">Service</NavLink></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><NavLink to="/skill">Skill</NavLink></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><NavLink to="/project">Project</NavLink></li>
-                        <li className='font-secondary   font-normal  text-[17px]'><NavLink to="/blog">Blog</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px]'><NavLink to="/">Home</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px]'><NavLink to="/about">About</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px]'><NavLink to="/service">Service</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px]'><NavLink to="/skill">Skill</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px]'><NavLink to="/project">Project</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px]'><NavLink to="/blog">Blog</NavLink></li>
+                       
                     </ul>
                 </ScrollSpy>
                 </div>
-                <div className="  hidden  w-[25%]  md:flex flex-row justify-end  items-center gap-x-1.5  ">
-                    <p className='font-secondary   font-medium  text-white  text-[20px]'>Let’s Talk</p>
-                    <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-600  items-center '  href=""><TbVectorBezierCircle size={20} /></a>
+                <div className="  hidden  w-[25%] md:flex flex-row justify-end items-center gap-x-1.5  ">
+                    <p className='font-secondary font-medium text-white text-[20px]'>Let’s Talk</p>
+                    <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-600 items-center'href=""><TbVectorBezierCircle size={20} /></a>
                 </div>
                 <div className=" block lg:hidden ">
                     {show?    
-                    <TiThMenuOutline size={25} onClick={()=>setshow(!show) } className='text-white ' />
+                    <TiThMenuOutline size={25} onClick={()=>setshow(!show)} className='text-white' />
                     :
-                    <TiThMenuOutline size={25} onClick={()=>setshow(!show) } className='text-purple-500  ' />
+                    <TiThMenuOutline size={25} onClick={()=>setshow(!show)} className='text-purple-500 ' />
                     }
                 </div>
               
@@ -43,12 +44,12 @@ const Navbar = () => {
                           <div className=" w-[360px] h-[350px]   flex flex-col justify-center items-center  bg-white/10 rounded-[12px]       md:w-[50%]    ">
                 <ScrollSpy behavior='smooth' activeClass=" bg-gray-600 px-6 py-2 rounded-full  border-2   " >
                         <ul className=' text-white flex flex-col items-center justify-center  space-y-4  '> 
-                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm  shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/home">Home</NavLink></li>
-                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm  shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/about">About</NavLink></li>
-                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm  shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/service">Service</NavLink></li>
-                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm  shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/skill">Skill</NavLink></li>
-                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm  shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/project">Project</NavLink></li>
-                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm  shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/blog">Blog</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/home">Home</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/about">About</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/service">Service</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/skill">Skill</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/project">Project</NavLink></li>
+                        <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/blog">Blog</NavLink></li>
                     </ul>
                 </ScrollSpy>
                 </div> 

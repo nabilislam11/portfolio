@@ -15,27 +15,27 @@ const About = () => {
     threshold: 0,
   });
     return (
-        <div id='About' className='md:py-[149px]  py-[21px] '>
-            <div ref={ref} className=" relative flex md:flex-row md:justify-between md:py-[91px] md:px-[77px] text-center  py-[20px] px-[20px] bg-black flex-col ">
+        <div id='About' className='md:py-[149px]  py-[21px] h-screen flex justify-center items-center '>
+            <div ref={ref} className=" relative flex md:flex-row md:justify-between md:py-[91px] md:px-[77px] text-center py-[20px] px-[20px] bg-black flex-col ">
                 <div className="md:w-[40%] w-full  ">
-                    <p className='font-primary  font-medium   md:text-[17px] text-[16px] text-white'>About Me</p>
+                    <p className='font-primary  font-medium  md:text-[17px] text-[16px] text-white'>About Me</p>
                     <h2 className='font-primary  md:w-full font-bold md:text-[32px] pt-[8px] pb-[16px] text-white text-[19px] w-[300px]  '>Professional <span className='text-purple-500'> Problem Solutions </span>
                         For Digital Products</h2>
-                    <p className='font-secondary md:w-full  font-normal  text-[16px] text-gray-400 md:pb-[35px] pb-[15px] w-[309px] '>
-                        I’m a MERN stack developer from Dhaka, weaving ideas into interactive, scalable digital experiences. My code lives where creativity meets logic—turning complex problems into elegant solutions. Whether it’s crafting a sleek interface or engineering robust backend systems, I build with purpose, precision, and a bit of curiosity for the unknown.
+                    <p className='font-secondary md:w-full  font-normal text-[16px] text-gray-400 md:pb-[35px] pb-[15px] w-[309px] '>
+                     "I specialize in the frontend side of the MERN stack—turning ideas into interactive, pixel-perfect interfaces. Skilled in React.js, Tailwind CSS, JavaScript (ES6+), and responsive design, I focus on building clean, scalable, and user-friendly applications. From reusable components to smooth animations, my goal is to create web experiences that feel fast, modern, and intuitive. Currently exploring advanced React patterns, API integrations, and frontend optimization to push boundaries of digital design."
                     </p>
                     {/* top__part */}
                     <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center  ">
                      
-                            <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
+                            <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
                                 <h2 className='font-tittle  font-normal text-purple-500  text-[25px]'><CountUp end={1} start={inView ? 0:null}  /></h2>
-                                <p className='font-secondary   font-medium   text-[17px] text-white'>Years Experience </p>
+                                <p className='font-secondary font-medium  text-[17px] text-white'>Years Experience </p>
                             </div>
                        
                           
-                            <div className="flex flex-col w-[200px] text-center justify-around  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
-                                <h2 className='font-tittle   font-normal text-purple-500 text-[25px]'><CountUp end={120} start={inView ? 0:null}  /></h2>
-                                <p className='font-secondary   font-medium   text-[17px] text-white'>Projects Completed </p>
+                            <div className="flex flex-col w-[200px] text-center justify-around bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
+                                <h2 className='font-tittle font-normal text-purple-500 text-[25px]'><CountUp end={120} start={inView ? 0:null}  /></h2>
+                                <p className='font-secondary font-medium text-[17px] text-white'>Projects Completed </p>
                             </div>
                         
                     </div>
