@@ -17,9 +17,9 @@ import Contact from '../component/contact/Contact';
 const Home = () => {
   return (
   <>
-      <div id='Home' className='bg-black '>
+      <div id='Home' className='bg-black  '>
       <div className="w-full  mx-auto md:w-[1440px] md:mx-auto  px-4 ">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className=" flex md:flex-row md:justify-around md:items-center  md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] ">
           <div className="w-[50%] ">
             <div className="">
@@ -56,8 +56,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-        <Marque/>
-        <div className="w-full  mx-auto md:w-[1440px] md:mx-auto   px-4">
+        {/* <Marque/> */}
+        <div className="w-full  mx-auto md:w-[1440px] md:mx-auto  px-4">
           <About/>
           <Service/>
           <Skill/>
