@@ -1,9 +1,6 @@
 import React from 'react'
 import { FaCode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import code from '../../assets/code.gif';
-import gif2 from '../../assets/gif2.png'
-import CountUp from 'react-countup';
 import code3 from '../../assets/code3.webp'
 import { useInView } from "react-intersection-observer";
 import AOS from 'aos';

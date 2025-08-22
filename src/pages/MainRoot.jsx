@@ -7,8 +7,9 @@ const MainRoot = () => {
   return (
     <div className='bg-black'>
         <Navbar/>
-        <Container>
 
+
+        <Container>
         <Outlet/>
         </Container>
     </div>

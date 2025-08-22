@@ -13,19 +13,27 @@ import Service from './component/service/Service'
 import Skill from './component/skill/Skill'
 import Project from './component/project/Project'
 import Blog from './component/blog/Blog'
+import Blog_details from './component/blog/Blog_details'
 
+const blog =[{id:1, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
+},{id:2, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
+},{id:3, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
+},{id:4, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
+},{id:5, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
+}]
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: MainRoot,
+    element: <MainRoot/>,
     children: [
-      { index: true, Component: Home },
-      { path: "/about", Component: About },
-      { path: "/service", Component: Service },
-      { path: "/skill", Component: Skill },
-      { path: "/project", Component: Project },
-      { path: "/blog", Component: Blog },
+      { index: true, element: <Home blog={blog} /> },
+      { path: "/about", element: <About/> },
+      { path: "/service", element: <Service/> },
+      { path: "/skill", element: <Skill/> },
+      { path: "/project", element: <Project/> },
+      { path: "/blog", element: <Blog blog={blog}/> },
+      { path: "/blog_details/:id", element: <Blog_details blog={blog}/> },
     ],
   },
 ])

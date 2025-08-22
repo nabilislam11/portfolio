@@ -1,8 +1,23 @@
 import React from 'react'
 import { TiLocationArrowOutline } from "react-icons/ti";
-import blog from '../../assets/blog.png'
+
+import { Link, useParams } from 'react-router';
+import intern from '../../assets/intern.webp'
+import blog1 from '../../assets/blog1.jpg'
+import blog32 from '../../assets/blog32.png'
+import blog42 from '../../assets/blog42.webp'
 
 const Blog = () => {
+    const blog =[{id:1, title:"How to Grab an Internship in Web Development",description: " javascriprt is a major part of cording.",img:intern,time:"March 15, 2025",
+},{id:2, title:"The Ultimate Frontend Developer Toolkit for 2025",description: " javascriprt is a major part of cording.",img:blog1,time:"July 25, 2025",
+},{id:3, title:"React Compiler Beta Release",description: " javascriprt is a major part of cording.",img:blog32,time:"July 25, 2025",
+},{id:4, title:"HTML, CSS, JavaScript Roadmap for Beginners",description: " javascriprt is a major part of cording.",img:blog42,time:"June 5, 2025",
+},{id:5, title:"HTML, CSS, JavaScript Roadmap for Beginners",description: " javascriprt is a major part of cording.",img:intern,time:"June 5, 2025",
+}]
+
+
+   console.log(blog,"hasjfhjkshfj");
+   
     return (
         <div id='Blog' className='py-[108px] h-screen flex justify-center items-center '>
             <div className="">
@@ -11,82 +26,39 @@ const Blog = () => {
                     <h3 className='font-primary font-bold text-[42px] text-white'>Latest News & <samp className='text-purple-500 '>Blog</samp></h3>
                 </div>
                 {/* full__blog */}
-                <div className="flex flex-col gap-y-[30px]">
                     {/* frist__part */}
-                    <div className="flex justify-center gap-x-[21px]  ">
-                        <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
+                <div className="grid grid-cols-2  gap-x-15 gap-y-[30px]">
+                    {
+                        blog.slice(0,4).map((b)=>(
+                            
+                            
+                            <div className="flex justify-center gap-x-[21px]  ">
+                        <div className="flex justify-around items-center px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
                             <div className="w-[30%] ">
-                                <img src={blog} alt="" />
+                                <img src={b.img} alt="" />
                             </div>
                             <div className="w-[60%] ">
-                                <p className='font-primary font-normal text-[16px] text-white'>12 Mar 2025</p>
-                                <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
+                                <p className='font-primary font-normal text-[16px] text-white'>{b.time} </p>
+                                <h2 className='font-primary font-bold text-[32px] text-white'>{b.title}</h2>
 
                                 <div className="flex items-center gap-x-3  pt-1.5">
                                     <p className='font-primary font-normal  text-[16px] text-white'>Read More</p>
                                     <div className=" flex w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 items-center group-hover:text-white transition-all duration-300 bg-white/10 border border-white/10 text-purple-500  justify-center ">
-                                        <TiLocationArrowOutline size={35} />
+                                     <Link to={`/blog_details/${b.id}`}>     <TiLocationArrowOutline size={35} /> </Link>
+                                                                                                                     
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
-                            <div className="w-[30%] ">
-                                <img src={blog} alt="" />
-                            </div>
-                            <div className="w-[60%] ">
-                                <p className='font-primary font-normal  text-[16px] text-white'>12 Mar 2025</p>
-                                <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
-
-                                <div className="flex items-center gap-x-3 pt-1.5 ">
-                                    <p className='font-primary font-normal text-[16px] text-white'>Read More</p>
-                                    <div className=" flex items-center w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 group-hover:text-white transition-all duration-300 bg-white/10 border border-white/10 text-purple-500 justify-center ">
-                                        <TiLocationArrowOutline size={35} />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                     
                     </div>
+
+                        ))
+                    }
+                  
                     {/* second__part */}
-                    <div className="flex justify-center gap-x-[21px]  ">
-                        <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
-                            <div className="w-[30%] ">
-                                <img src={blog} alt="" />
-                            </div>
-                            <div className="w-[60%] ">
-                                <p className='font-primary font-normal text-[16px] text-white'>12 Mar 2025</p>
-                                <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
-
-                                <div className="flex items-center gap-x-3  pt-1.5 ">
-                                    <p className='font-primary font-normal text-[16px] text-white'>Read More</p>
-                                    <div className="w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 flex items-center group-hover:text-white transition-all duration-300 bg-white/10 border border-white/10 text-purple-500  justify-center ">
-                                        <TiLocationArrowOutline size={35} />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className="flex justify-around px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
-                            <div className="w-[30%] ">
-                                <img src={blog} alt="" />
-                            </div>
-                            <div className="w-[60%] ">
-                                <p className='font-primary font-normal text-[16px] text-white'>12 Mar 2025</p>
-                                <h2 className='font-primary font-bold text-[32px] text-white'>React Virtual DOM</h2>
-
-                                <div className="flex items-center gap-x-3  pt-1.5 ">
-                                    <p className='font-primary font-normal  text-[16px] text-white'>Read More</p>
-                                    <div className="w-[49px] h-[49px] rounded-full group-hover:bg-purple-800 flex items-center group-hover:text-white transition-all duration-300 bg-white/10 border border-white/10 text-purple-500 
-                                justify-center ">
-                                        <TiLocationArrowOutline size={35} />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                   
                 </div>
                 <div className="text-center flex justify-center items-center gap-x-[14px] pt-[110px] group  ">
                     <h5 className='font-primary font-bold text-[42px] text-white'>View More</h5>
