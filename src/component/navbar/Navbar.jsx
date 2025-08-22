@@ -26,9 +26,9 @@ const Navbar = () => {
                     </ul>
                 </ScrollSpy>
                 </div>
-                <div className="  hidden  w-[25%] md:flex flex-row justify-end items-center gap-x-1.5  ">
-                    <p className='font-secondary font-medium text-white text-[20px]'>Let’s Talk</p>
-                    <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-600 items-center'href=""><TbVectorBezierCircle size={20} /></a>
+                <div className=" group hidden  w-[25%] md:flex flex-row justify-end items-center gap-x-1.5  ">
+                    <p className='font-secondary font-medium py-3 px-4 rounded-2xl text-[20px] flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800  group-hover:text-white bg-white/10 border border-white/10 text-purple-500 '>Contact </p>
+                    {/* <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-600 items-center'href=""><TbVectorBezierCircle size={20} /></a> */}
                 </div>
                 <div className=" block lg:hidden ">
                     {show?    
@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
                 {
                     show&&(
-                          <div className=" w-[360px] h-[350px]   flex flex-col justify-center items-center  bg-white/10 rounded-[12px]       md:w-[50%]    ">
+                          <div className=" w-[360px] h-[350px]   flex flex-col justify-center items-center  bg-white/10 rounded-[12px] md:w-[50%] ">
                 <ScrollSpy behavior='smooth' activeClass=" bg-gray-600 px-6 py-2 rounded-full  border-2   " >
                         <ul className=' text-white flex flex-col items-center justify-center  space-y-4  '> 
                         <li className='font-secondary font-normal text-[17px] bg-white/10 border-2 border-white/10 text-sm shadow-lg rounded-3xl py-[6px] px-[12px]'><NavLink to="/home">Home</NavLink></li>

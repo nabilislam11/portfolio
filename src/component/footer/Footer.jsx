@@ -5,7 +5,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa6";
+import { FaFacebook, FaTwitter, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -74,20 +74,24 @@ const Footer = () => {
                             <p className='font-medium font-secondary text-[16px] text-white '>01836060186</p>
                         </div>
                     </div>
-                </div>
-
-            </div>
-            <div className="flex justify-between pt-[37px] pb-[48px] ">
-                <div className=""><p className='font-secondary font-normal text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
-                <div className="flex  gap-x-[54px]">
+                             <div className="flex  gap-x-[54px]">
                     <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6 bg-black text-white' /></a>
                     <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
                     <a target='blank' href="https://www.facebook.com/share/1BAD7hkh9k/?mibextid=wwXIfr">
                         <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
                     </a>
+                    <a target='blank' href="https://x.com/Nabilislam95265">
+                       <FaTwitter className='size-6   text-[#0866ff]  ' />
+                    </a>
 
 
                 </div>
+                </div>
+
+            </div>
+            <div className="flex justify-center pt-[37px] pb-[48px] ">
+                <div className=""><p className='font-secondary font-normal text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
+       
             </div>
 
         </div>

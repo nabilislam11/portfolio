@@ -21,8 +21,8 @@ const Service = () => {
       </div>
            <div data-aos="fade-down-left" data-aos-delay="200" className=" group transition-transform duration-300 flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[35px] px-[20px] gap-x-[102px]  border-2  hover:border-2 hover:border-purple-800 " >
         <div className="gap-y-2">
-          <h3 className='font-secondary  font-bold text-[32px] text-white w-[385px]'>React Development</h3>
-          <p className='font-normal font-primary text-gray-400 text-[16px]'>Be a part of front end revolutionary tech like React js</p>
+          <h3 className='font-secondary  font-bold text-[32px] text-white w-[385px]'>React & Next.js Development</h3>
+          <p className='font-normal font-primary text-gray-400 text-[16px]'>Build fast, scalable and SEO-friendly apps with React & Next.js</p>
         </div>
         <div className="w-[49px] h-[49px] bg-black rounded-full flex justify-center items-center text-white  group-hover:bg-purple-800 ">
           <FaCode size={20} />
@@ -31,19 +31,19 @@ const Service = () => {
       </div>
       {/* bottom__part */}
       <div className="flex justify-around   ">
-           <div data-aos="fade-up-right" data-aos-delay="200" className="flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[35px] px-[20px] gap-x-[102px] group transition-all   duration-300  border-2  hover:border-2 hover:border-purple-800 " >
+           <div data-aos="fade-up-right" data-aos-delay="200" className="flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[45px px-[20px] gap-x-[102px] group transition-all   duration-300  border-2  hover:border-2 hover:border-purple-800 " >
         <div className="gap-y-2">
-          <h3 className='font-secondary  font-bold text-[32px] text-white w-[385px]'>Powerful Backend Dev</h3>
-          <p className='font-normal font-primary text-gray-400 text-[16px]'>unleash the power of express and node js with me</p>
+          <h3 className='font-secondary  font-bold text-[32px] text-white w-[385px]'>Tailwind CSS Styling</h3>
+          <p className='font-normal font-primary text-gray-400 text-[16px]'>Pixel-perfect, modern and clean UI with Tailwind CSS</p>
         </div>
         <div className="w-[49px] h-[49px] bg-black rounded-full flex justify-center items-center text-white  group-hover:bg-purple-800">
           <FaCode size={20} />
         </div>
       </div>
-           <div data-aos="fade-up-left" data-aos-delay="200" className="flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[35px] px-[20px] gap-x-[102px] group  transition-all   duration-300  border-2  hover:border-2 hover:border-purple-800 " >
+           <div data-aos="fade-up-left" data-aos-delay="200" className="flex items-center justify-between bg-[#1F1F1F] rounded-[20px] py-[45px] px-[20px] gap-x-[102px] group  transition-all   duration-300  border-2  hover:border-2 hover:border-purple-800 " >
         <div className="gap-y-2">
-          <h3 className='font-secondary  font-bold text-[32px] w-[385px] text-white l '>Modern and smart DataBase</h3>
-          <p className='font-normal font-primary text-gray-400 text-[16px]'>Let’s keep your valuable data in Mongo-DB with me</p>
+          <h3 className='font-secondary  font-bold text-[32px] w-[385px] text-white l '>Front-End Optimization</h3>
+          <p className='font-normal font-primary text-gray-400 text-[16px]'>Fast loading, SEO-friendly and optimized front-end solutions</p>
         </div>
         <div className="w-[49px] h-[49px] bg-black rounded-full flex justify-center items-center text-white  transition-all   duration-300 group-hover:bg-purple-800">
           <FaCode size={20} />

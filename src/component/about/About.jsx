@@ -8,6 +8,8 @@ import code3 from '../../assets/code3.webp'
 import { useInView } from "react-intersection-observer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 const About = () => {
      AOS.init();
  const { ref, inView } = useInView({
@@ -25,7 +27,20 @@ const About = () => {
                      "I specialize in the frontend side of the MERN stack—turning ideas into interactive, pixel-perfect interfaces. Skilled in React.js, Tailwind CSS, JavaScript (ES6+), and responsive design, I focus on building clean, scalable, and user-friendly applications. From reusable components to smooth animations, my goal is to create web experiences that feel fast, modern, and intuitive. Currently exploring advanced React patterns, API integrations, and frontend optimization to push boundaries of digital design."
                     </p>
                     {/* top__part */}
-                    <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center  ">
+                     <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center">
+                         <div className="flex flex-col w-[200px] text-center gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
+                               <RiTailwindCssFill size={50} className='text-[#30BBCC] '/>
+                                <p className='font-secondary font-medium  text-[17px] text-white'>TAIWIND CSS </p>
+                            </div>
+                            
+                            <div className="flex flex-col w-[200px] text-center  gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
+                               <IoLogoJavascript size={50} className='text-[#FFD600]' />
+                                <p className='font-secondary font-medium text-[17px] text-white'>Java script </p>
+                            </div>
+                       
+                     </div>
+
+                    {/* <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center  ">
                      
                             <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
                                 <h2 className='font-tittle  font-normal text-purple-500  text-[25px]'><CountUp end={1} start={inView ? 0:null}  /></h2>
@@ -37,22 +52,39 @@ const About = () => {
                                 <h2 className='font-tittle font-normal text-purple-500 text-[25px]'><CountUp end={120} start={inView ? 0:null}  /></h2>
                                 <p className='font-secondary font-medium text-[17px] text-white'>Projects Completed </p>
                             </div>
+                           
                         
-                    </div>
+                    </div> */}
                     {/* bottom__part__ */}
                     <div className="flex md:flex-row md:justify-between md:pt-[25px] flex-col justify-center items-center  ">
                    {/* bottom__right__part */}
+                            <div className="flex flex-col justify-center  items-center gap-y-2  w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
+                                <FaReact size={50} className='text-[#58c5dd]' />
+                                <p className='font-secondary   font-medium   text-[17px] text-white'>REACT </p>
+                            </div>
+
+                            {/* bottom__left_-part */}
+                            <div className="flex flex-col w-[200px] text-center  gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
+                               <RiNextjsFill size={50} className='bg-white rounded-full' />
+                                <p className='font-secondary   font-medium   text-[17px] text-white'>NEXT JS</p>
+                            </div>
+                    </div>
+
+
+
+                    {/* <div className="flex md:flex-row md:justify-between md:pt-[25px] flex-col justify-center items-center  ">
+                   bottom__right__part
                             <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
                                 <h2 className='font-tittlefont-normal text-purple-500 text-[25px]'><CountUp end={63} start={inView ? 0:null} /> </h2>
                                 <p className='font-secondary   font-medium   text-[17px] text-white'>Happy Clients</p>
                             </div>
 
-                            {/* bottom__left_-part */}
+                            bottom__left_-part
                             <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
                                 <h2 className='font-tittle font-normal text-purple-500  text-[25px]'><CountUp end={21} start={inView ? 0:null}  /></h2>
                                 <p className='font-secondary   font-medium   text-[17px] text-white'>Technologies Used</p>
                             </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="md:w-[10%] mx-auto text-[#58c4dc] "><FaReact size={100} /></div>
                 <div className="md:w-[40%] w-full ">

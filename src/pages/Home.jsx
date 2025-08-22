@@ -28,9 +28,10 @@ const Home = () => {
                   Hello I m{' '}
                   <TypeAnimation
                     sequence={[
-                      'MERN Stack Developer', 1000,
-                      'Full stack Developer', 1000,
-                      'Problem Solver', 1000,
+                      'Front-end Developer With JavaScript', 1000,
+                      'Front-end Developer With Tailwind CSS', 1000,
+                      'Front-end Developer With REACT ', 1000,
+                      'Front-end Developer With NEXT JS ', 1000,
                     ]}
                     wrapper="span"
                     className='font-primary  font-bold text-[22px]  md:text-[32px] text-purple-500 '
