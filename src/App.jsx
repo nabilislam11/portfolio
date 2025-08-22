@@ -14,6 +14,7 @@ import Skill from './component/skill/Skill'
 import Project from './component/project/Project'
 import Blog from './component/blog/Blog'
 import Blog_details from './component/blog/Blog_details'
+import Footer from './component/footer/Footer'
 
 const blog =[{id:1, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
 },{id:2, title:"javascript",description: " javascriprt is a major part of cording.",img:"",
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
       { path: "/project", element: <Project/> },
       { path: "/blog", element: <Blog blog={blog}/> },
       { path: "/blog_details/:id", element: <Blog_details blog={blog}/> },
+      { path: "/footer", element: <Footer/> },
     ],
   },
 ])

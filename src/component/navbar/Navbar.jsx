@@ -3,7 +3,8 @@ import logo from "../../assets/logo.png"
 import { TbVectorBezierCircle } from "react-icons/tb";
 import ScrollSpy from 'react-scrollspy-navigation';
 import { TiThMenuOutline } from 'react-icons/ti';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
+import Footer from '../footer/Footer';
 
 const Navbar = () => {
     const [show,setshow] =useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
                 </ScrollSpy>
                 </div>
                 <div className=" group hidden  w-[25%] md:flex flex-row justify-end items-center gap-x-1.5  ">
-                    <p className='font-secondary font-medium py-3 px-4 rounded-2xl text-[20px] flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800  group-hover:text-white bg-white/10 border border-white/10 text-purple-500 '>Contact </p>
+                    <Link to={"/footer"} className='font-secondary font-medium py-3 px-4 rounded-2xl text-[20px] flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800  group-hover:text-white bg-white/10 border border-white/10 text-purple-500 '>Contact </Link>
                     {/* <a className='text-white flex justify-center w-[35px] h-[35px] rounded-full  bg-purple-600 items-center'href=""><TbVectorBezierCircle size={20} /></a> */}
                 </div>
                 <div className=" block lg:hidden ">
