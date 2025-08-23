@@ -32,7 +32,7 @@ const Project = () => {
                                     <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-9  text-white' /></a>
                                 </div>
                             <div className="w-[39px] h-[39px] md:w-[49px] md:h-[49px] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800 group-hover:text-white bg-white/10 border border-white/10 text-purple-500  " >
-                                    <TiLocationArrowOutline size={35} />
+                                    <a target='blank' href="petrol-react-project.vercel.app"><TiLocationArrowOutline size={35} /></a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Project = () => {
                                     <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-9  text-white' /></a>
                                 </div>
                                 <div className="w-[39px] h-[39px] md:w-[49px] md:h-[49px] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800 group-hover:text-white bg-white/10 border border-white/10 text-purple-500  " >
-                                    <TiLocationArrowOutline size={35} />
+                                   <a target='blank' href="sports-car-design.vercel.app"><TiLocationArrowOutline size={35} /></a>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Project = () => {
                                     <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-9 text-white' /></a>
                                 </div>
                                 <div className="w-[39px] h-[39px] md:w-[49px] md:h-[49px] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800 group-hover:text-white bg-white/10 border border-white/10 text-purple-500  " >
-                                    <TiLocationArrowOutline size={35} />
+                                    <a target='blank' href="shop-hub-master.vercel.app"><TiLocationArrowOutline size={35} /></a>
                                 </div>
                             </div>
                         </div>

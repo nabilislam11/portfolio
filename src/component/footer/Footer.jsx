@@ -9,7 +9,7 @@ import { FaFacebook, FaTwitter, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className='bg-black  pt-[26px] md:pt-[79px]'>
+        <div className='bg-black pt-[26px] md:pt-[79px] min-h-screen'>
             <div className="bg-white/10 py-[30px] md:py-[114px] md:flex justify-between px-[15px] md:px-12 rounded-[7px] ">
                 <div className="w-[70%] pb-3 md:pb-0 ">
                     {/* <h2 className='font-tittle font-black text-[58px] text-purple-800' >Nabil Islam </h2> */}
@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="flex  gap-x-9  ">
                             <div className=" flex flex-col gap-y-2.5 ">
                                 <h2 className='text-white items-start '>Full Name</h2>
-                                <input className='bg-black text-white py-[15px] px-[15px] rounded-[10px] outline-0 ' type="text" placeholder='Enter Your Full Name' />
+                                <input className='bg-black text-white py-[15px] px-[15px] rounded-[10px] outline-0'type="text" placeholder='Enter Your Full Name' />
                             </div>
                             {/* <div className=" flex flex-col gap-y-2.5 ">
                                 <h2 className='text-white items-start '>Email Address</h2>
@@ -28,7 +28,7 @@ const Footer = () => {
                         {/* middle__part */}
                         <div className="flex flex-col gap-y-2.5  ">
                             <h2 className='text-white items-start '>Phone Number</h2>
-                            <input className='bg-black text-white py-[15px] px-[15px] w-[270px] rounded-[10px] outline-0 ' type="text" placeholder='Enter Your phone number' />
+                            <input className='bg-black text-white py-[15px] px-[15px] w-[270px] rounded-[10px] outline-0'type="text" placeholder='Enter Your phone number' />
                         </div>
                         {/* bottom__part */}
                         <div className="flex flex-col gap-y-2.5 ">
