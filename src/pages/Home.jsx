@@ -44,7 +44,7 @@ const Home = () => {
               <p className='font-primary  font-bold md:w-[450px] md:text-[32px] text-gray-400 md:pt-[27px] md:pb-[54px] text-[18px] pt-[9px] pb-[19px] w-[355px] '>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites</p>
            
             </div>
-            <div className="flex gap-x-3.5 group pb-[98px] items-center ">
+            <div className="flex gap-x-3.5 group pb-[27px] md:pb-[98px] items-center ">
               <p className='font-primary  font-semibold   text-[22px] text-white  '>Download My Resume</p>
               <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
               <a href=""><FaCircleDown size={20} /></a>

@@ -10,8 +10,8 @@ import { SiExpress } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 const Skill = () => {
     return (
-        <div id='Skill' className=' py-[42px] md:py-[107px] md:flex justify-center items-center min-h-screen'>
-            <div className=" md:flex md:justify-between  pt-[30px] md:pt-[74px] bg-white/10 rounded-2xl  px-[20px] md:px-[90px] ">
+        <div id='Skill' className=' py-[25px] md:py-[107px] md:flex justify-center items-center min-h-screen'>
+            <div className=" md:flex md:justify-between  pt-[30px] md:pt-[74px] bg-white/10 rounded-2xl  px-[20px] md:px-[90px]  pb-8 md:pb-0 ">
                 <div data-aos="zoom-in" className="md:w-[30%] md:py-[125px]">
                     <p className='font-primary font-normal text-[16px] text-gray-400'>My Skill</p>
                     <h3 className='font-primary font-bold text-[27px] md:text-[32px] text-white '>Let’s Explore Popular <samp className='text-purple-500'>Skills & Experience</samp> </h3>
