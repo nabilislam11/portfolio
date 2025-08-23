@@ -8,65 +8,66 @@ import 'aos/dist/aos.css';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 const About = () => {
-     AOS.init();
- const { ref, inView } = useInView({
-    /* Optional options */
-    threshold: 0,
-  });
+    AOS.init();
+    const { ref, inView } = useInView({
+        /* Optional options */
+        threshold: 0,
+    });
     return (
-        <div id='About' className='md:py-[149px]  py-[21px] '>
-            <div ref={ref} className=" relative flex md:flex-row md:justify-between md:py-[91px] md:px-[77px] text-center py-[20px] px-[20px] bg-black flex-col ">
+        <div id='About' className='md:py-[149px]  py-[21px] min-h-screen '>
+            <div ref={ref} className=" relative flex md:flex-row md:justify-between md:py-[91px] md:px-[77px] md:gap-y-0 text-center py-[20px] px-[20px] bg-black flex-col gap-y-4 ">
                 <div className="md:w-[40%] w-full  ">
                     <p className='font-primary  font-medium  md:text-[17px] text-[16px] text-white'>About Me</p>
                     <h2 className='font-primary  md:w-full font-bold md:text-[32px] pt-[8px] pb-[16px] text-white text-[19px] w-[300px]  '>Professional <span className='text-purple-500'> Problem Solutions </span>
                         For Digital Products</h2>
                     <p className='font-secondary md:w-full  font-normal text-[16px] text-gray-400 md:pb-[35px] pb-[15px] w-[309px] '>
-                     "I specialize in the frontend side of the MERN stack—turning ideas into interactive, pixel-perfect interfaces. Skilled in React.js, Tailwind CSS, JavaScript (ES6+), and responsive design, I focus on building clean, scalable, and user-friendly applications. From reusable components to smooth animations, my goal is to create web experiences that feel fast, modern, and intuitive. Currently exploring advanced React patterns, API integrations, and frontend optimization to push boundaries of digital design."
+                        "I specialize in the frontend side of the MERN stack—turning ideas into interactive, pixel-perfect interfaces. Skilled in React.js, Tailwind CSS, JavaScript (ES6+), and responsive design, I focus on building clean, scalable, and user-friendly applications. From reusable components to smooth animations, my goal is to create web experiences that feel fast, modern, and intuitive. Currently exploring advanced React patterns, API integrations, and frontend optimization to push boundaries of digital design."
                     </p>
-                    {/* top__part */}
-                     <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center">
-                         <div className="flex flex-col w-[200px] text-center gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
-                               <RiTailwindCssFill size={50} className='text-[#30BBCC] '/>
+                    <div className=" flex flex-col  gap-y-3 xl:gap-y-3">
+
+                        {/* top__part */}
+                        <div className="flex md:justify-between md:gap-y-3 md:flex-row flex-col justify-center  gap-y-3 items-center">
+                            <div className="flex flex-col w-[200px] text-center gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
+                                <RiTailwindCssFill size={50} className='text-[#30BBCC] ' />
                                 <p className='font-secondary font-medium  text-[17px] text-white'>TAIWIND CSS </p>
                             </div>
-                            
+
                             <div className="flex flex-col w-[200px] text-center  gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
-                               <IoLogoJavascript size={50} className='text-[#FFD600]' />
+                                <IoLogoJavascript size={50} className='text-[#FFD600]' />
                                 <p className='font-secondary font-medium text-[17px] text-white'>Java script </p>
                             </div>
-                       
-                     </div>
 
-                    {/* <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center  ">
+                        </div>
+
+                        {/* <div className="flex md:justify-between  md:flex-row flex-col justify-center items-center  ">
                      
-                            <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
-                                <h2 className='font-tittle  font-normal text-purple-500  text-[25px]'><CountUp end={1} start={inView ? 0:null}  /></h2>
-                                <p className='font-secondary font-medium  text-[17px] text-white'>Years Experience </p>
-                            </div>
-                       
-                          
-                            <div className="flex flex-col w-[200px] text-center justify-around bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
-                                <h2 className='font-tittle font-normal text-purple-500 text-[25px]'><CountUp end={120} start={inView ? 0:null}  /></h2>
-                                <p className='font-secondary font-medium text-[17px] text-white'>Projects Completed </p>
-                            </div>
-                           
-                        
-                    </div> */}
-                    {/* bottom__part__ */}
-                    <div className="flex md:flex-row md:justify-between md:pt-[25px] flex-col justify-center items-center  ">
-                   {/* bottom__right__part */}
+                     <div className="flex flex-col w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]">
+                     <h2 className='font-tittle  font-normal text-purple-500  text-[25px]'><CountUp end={1} start={inView ? 0:null}  /></h2>
+                     <p className='font-secondary font-medium  text-[17px] text-white'>Years Experience </p>
+                     </div>
+                                          
+                     <div className="flex flex-col w-[200px] text-center justify-around bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
+                     <h2 className='font-tittle font-normal text-purple-500 text-[25px]'><CountUp end={120} start={inView ? 0:null}  /></h2>
+                     <p className='font-secondary font-medium text-[17px] text-white'>Projects Completed </p>
+                     </div>             
+                     </div> */}
+
+
+                        {/* bottom__part__ */}
+                        <div className="flex md:flex-row md:justify-between md: gap-y-3 md:pt-[25px]  gap-y-3 flex-col justify-center items-center  ">
+                            {/* bottom__right__part */}
                             <div className="flex flex-col justify-center  items-center gap-y-2  w-[200px] text-center  bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
                                 <FaReact size={50} className='text-[#58c5dd]' />
                                 <p className='font-secondary   font-medium   text-[17px] text-white'>REACT </p>
                             </div>
-
                             {/* bottom__left_-part */}
                             <div className="flex flex-col w-[200px] text-center  gap-y-2  justify-center  items-center bg-[#1F1F1F] rounded-[20px] py-[17px] px-[15px]  ">
-                               <RiNextjsFill size={50} className='bg-white rounded-full' />
+                                <RiNextjsFill size={50} className='bg-white rounded-full' />
                                 <p className='font-secondary   font-medium   text-[17px] text-white'>NEXT JS</p>
                             </div>
-                    </div>
+                        </div>
 
+                    </div>
 
 
                     {/* <div className="flex md:flex-row md:justify-between md:pt-[25px] flex-col justify-center items-center  ">
@@ -84,10 +85,10 @@ const About = () => {
                     </div> */}
                 </div>
                 <div className="md:w-[10%] mx-auto text-[#58c4dc] "><FaReact size={100} /></div>
-                <div className="md:w-[40%] w-full ">
-                    <img className='md:w-full md:h-full  ' src={code3} alt="" />
+                <div className="md:w-[42%] w-full ">
+                    <img className='md:w-full md:h-full object-cover ' src={code3} alt="" />
                     <div className="text-white ">
-                        <div data-aos="fade-left" data-aos-delay="200"   className=" absolute top-[222px] right-[526px] bg-gray-300 rounded-full  z-10   py-4 px-3.5 ">
+                        <div data-aos="fade-left" data-aos-delay="200" className=" absolute top-[222px] right-[526px] bg-gray-300 rounded-full  z-10   py-4 px-3.5 ">
                             <h3 className='font-semibold font-secondary text-[16px] text-black  ' >MERN Stack Developer</h3>
                         </div>
                         <div data-aos="fade-left" data-aos-delay="220" className=" absolute top-[305px] right-[496px] bg-gray-300 rounded-full     py-4 px-3.5 ">

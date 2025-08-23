@@ -18,7 +18,7 @@ const Home = () => {
   return (
   <>
       <div id='Home' className='bg-black  '>
-      <div className="w-full  mx-auto md:w-[1440px] md:mx-auto  px-4 ">
+      <div className="w-full pt-18  mx-auto md:w-[1440px] pt:0 md:mx-auto  px-4 ">
         {/* <Navbar /> */}
         <div className=" flex md:flex-row md:justify-around md:items-center  md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] ">
           <div className="w-[50%] ">
