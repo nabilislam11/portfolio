@@ -77,14 +77,12 @@ const Footer = () => {
                              <div className="flex  justify-center md:justify-start  gap-x-[54px]">
                     <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6 bg-black text-white' /></a>
                     <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
-                    <a target='blank' href="https://www.facebook.com/share/1BAD7hkh9k/?mibextid=wwXIfr">
+                    <a target='blank' href="https://www.linkedin.com/in/nabil-islam-hamza-3403a837a/">
                         <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
                     </a>
                     <a target='blank' href="https://x.com/Nabilislam95265">
                        <FaTwitter className='size-6   text-[#0866ff]  ' />
                     </a>
-
-
                 </div>
                 </div>
 
