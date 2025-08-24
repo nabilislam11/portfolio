@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="flex  gap-x-9  ">
                             <div className=" flex flex-col gap-y-2.5 ">
                                 <h2 className='text-white items-start '>Full Name</h2>
-                                <input className='bg-black text-white py-[15px] px-[15px] rounded-[10px] outline-0'type="text" placeholder='Enter Your Full Name' />
+                                <input className='bg-black text-white py-[15px] px-[15px] rounded-[10px] outline-0' type="text" placeholder='Enter Your Full Name' />
                             </div>
                             {/* <div className=" flex flex-col gap-y-2.5 ">
                                 <h2 className='text-white items-start '>Email Address</h2>
@@ -28,7 +28,7 @@ const Footer = () => {
                         {/* middle__part */}
                         <div className="flex flex-col gap-y-2.5  ">
                             <h2 className='text-white items-start '>Phone Number</h2>
-                            <input className='bg-black text-white py-[15px] px-[15px] w-[270px] rounded-[10px] outline-0'type="text" placeholder='Enter Your phone number' />
+                            <input className='bg-black text-white py-[15px] px-[15px] w-[270px] rounded-[10px] outline-0' type="text" placeholder='Enter Your phone number' />
                         </div>
                         {/* bottom__part */}
                         <div className="flex flex-col gap-y-2.5 ">
@@ -74,22 +74,25 @@ const Footer = () => {
                             <p className='font-medium font-secondary text-[16px] text-white '>01836060186</p>
                         </div>
                     </div>
-                             <div className="flex  justify-center md:justify-start  gap-x-[54px]">
-                    <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6 bg-black text-white' /></a>
-                    <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' />
-                    <a target='blank' href="https://www.linkedin.com/in/nabil-islam-hamza-3403a837a/">
-                        <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
-                    </a>
-                    <a target='blank' href="https://x.com/Nabilislam95265">
-                       <FaTwitter className='size-6   text-[#0866ff]  ' />
-                    </a>
-                </div>
+                    <div className="flex  justify-center md:justify-start  gap-x-[54px]">
+                        <a target='blank' href="https://github.com/nabilislam11"> <IoLogoGithub className='size-6 bg-black text-white' /></a>
+                        <a target='blank' href="www.linkedin.com/in/nabilislam11"> <FaLinkedin className='size-6 text-[#0a66c2]  bg-white' /></a>
+
+                        <a target='blank' href="https://www.facebook.com/share/1BAD7hkh9k/?mibextid=wwXIfr">
+                            <FaFacebook className='size-6 bg-white rounded-full  text-[#0866ff]  ' />
+                        </a>
+                        <a target='blank' href="https://x.com/Nabilislam95265">
+                            <FaTwitter className='size-6   text-[#0866ff]  ' />
+                        </a>
+
+
+                    </div>
                 </div>
 
             </div>
             <div className="flex justify-center items-center pt-[21px] md:pt-[37px] pb-[40px] md:pb-[48px] ">
                 <div className=""><p className='font-secondary font-normal  text-[15px] md:text-[18px] text-gray-400 '>Copyright @2025, Nabil All Rights Reserved</p></div>
-       
+
             </div>
 
         </div>
