@@ -12,3 +12,6 @@
 button.slick-arrow{
 display: none !important ;
 }
+body {
+  overflow-x: hidden;
+}
