@@ -5,7 +5,7 @@ import Container from '../component/container/Container'
 
 const MainRoot = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black '>
         <Navbar/>
 
 
