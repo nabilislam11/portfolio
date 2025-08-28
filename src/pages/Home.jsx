@@ -47,7 +47,7 @@ const Home = () => {
             <div className="flex gap-x-3.5 group pb-[27px] md:pb-[98px] items-center ">
               <p className='font-primary  font-semibold   text-[22px] text-white  '>Download My Resume</p>
               <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
-              <a target='blank' href="https://drive.google.com/file/d/1PomjuH0VYdAYh1xMwu1e3AouBObVbOJ0/view?usp=sharing"><FaCircleDown size={20} /></a>
+              <a target='blank' href="https://drive.google.com/file/d/1G-mlttl6_ykOm3uawb-5UkuojvHgw3NH/view?usp=sharing"><FaCircleDown size={20} /></a>
               </div>
             </div>
             </div>
