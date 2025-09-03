@@ -11,7 +11,7 @@ import Project from '../component/project/Project';
 import Blog from '../component/blog/Blog';
 import Footer from '../component/footer/Footer';
 import { TypeAnimation } from 'react-type-animation';
-import profile from '../assets/profile.jpg'
+import profile2 from '../assets/profile2.jpg'
 import Contact from '../component/contact/Contact';
 
 const Home = () => {
@@ -47,13 +47,13 @@ const Home = () => {
             <div className="flex gap-x-3.5 group pb-[27px] md:pb-[98px] items-center ">
               <p className='font-primary  font-semibold   text-[22px] text-white  '>Download My Resume</p>
               <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
-              <a target='blank' href="https://drive.google.com/file/d/1G-mlttl6_ykOm3uawb-5UkuojvHgw3NH/view?usp=sharing"><FaCircleDown size={20} /></a>
+              <a target='blank' href="https://drive.google.com/file/d/13xiweQer_ZiynnOfmoUgDB9dvfZqYV1r/view?usp=sharing"><FaCircleDown size={20} /></a>
               </div>
             </div>
             </div>
 
           <div className="md:w-[50%]  w-full    ">
-             <img className=' w-full h-[90%] object-cover rounded-[250px] ' src={profile} alt="" />
+             <img className=' w-[80%] h-[90%] object-cover rounded-t-[100px] rounded-b-[50px]  ' src={profile2} alt="" />
           </div>
         </div>
       </div>
