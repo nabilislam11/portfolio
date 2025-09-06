@@ -6,7 +6,7 @@ import project3 from '../../assets/project3.png'
 import { IoLogoGithub } from 'react-icons/io5';
 const Project = () => {
     return (
-        <div id='Project' className=' py-[10px] md:py-[98px] min-h-screen  ' >
+        <div id='Project' className=' py-[10px] md:py-[98px]  ' >
             <div className="text-center  pb-[24px] md:pb-[63px] ">
                 <p className='font-primary  font-normal text-[16px] text-white md:pb-[22px] '>Latest Works</p>
                 <h3 className='font-primary font-bold text-[28px] md:text-[42px]  text-white'>Explore My Popular <samp className='text-purple-500 '> Projects</samp></h3>

@@ -20,7 +20,7 @@ const Home = () => {
       <div id='Home' className='bg-black  '>
       <div className="w-full pt-18  mx-auto md:w-[1440px] pt:0 md:mx-auto  px-4 ">
         {/* <Navbar /> */}
-        <div className=" flex md:flex-row md:justify-around md:items-center  gap-x-0 md:gap-x-8 md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] ">
+        <div className=" flex md:flex-row justify-center md:justify-around md:items-center  gap-x-0 md:gap-x-8 md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] ">
           <div className="w-[50%] ">
             <div className="">
               <h2 className='font-tittle font-bold text-[57px] md:text-[98px] text-white pb-[10px] md:pb-[12px]'>Nabil Islam</h2>
@@ -52,8 +52,8 @@ const Home = () => {
             </div>
             </div>
 
-          <div className="md:w-[50%]  w-full    ">
-             <img className=' w-[80%] h-[90%] object-cover rounded-t-[100px] rounded-b-[30px]  ' src={profile3} alt="" />
+          <div className="md:w-[50%]  w-full ">
+             <img className=' w-[80%] h-[90%] object-cover  mx-auto  rounded-t-[70px] rounded-b-[30px]  ' src={profile3} alt="" />
           </div>
         </div>
       </div>

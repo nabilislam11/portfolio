@@ -24,7 +24,7 @@ const Blog = () => {
     console.log(blog, "hasjfhjkshfj");
 
     return (
-        <div id='Blog' className=' py-[10px] md:py-[108px] min-h-screen flex justify-center items-center '>
+        <div id='Blog' className=' py-[10px] md:py-[108px] flex justify-center items-center '>
             <div className="">
                 <div className="text-center  pb-[20px] md:pb-[76px] ">
                     <p className='font-primary  font-normal  text-[16px] text-white  md:pb-[30px] '>News & Blog</p>

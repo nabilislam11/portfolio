@@ -14,7 +14,7 @@ const About = () => {
         threshold: 0,
     });
     return (
-        <div id='About' className='md:py-[149px]  py-[21px] min-h-screen '>
+        <div id='About' className='md:py-[100px]  py-[21px]'>
             <div ref={ref} className=" relative flex md:flex-row md:justify-between md:py-[91px] md:px-[77px] md:gap-y-0 text-center py-[20px] px-[20px] bg-black flex-col gap-y-4 ">
                 <div className="md:w-[40%] w-full  ">
                     <p className='font-primary  font-medium  md:text-[17px] text-[16px] text-white'>About Me</p>
