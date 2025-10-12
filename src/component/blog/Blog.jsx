@@ -39,7 +39,7 @@ const Blog = () => {
 
                             <div className="flex flex-col justify-center text-center   md:flex md:justify-center md:text-start  md:gap-x-[21px]  ">
                                 <div className=" flex flex-col justify-center   md:flex-row md:justify-around md:items-center px-[20px] py-[18px] rounded-[20px] group bg-white/10 ">
-                                    <div className=" w-[405] md:w-[30%]  mx-auto md:m-auto ">
+                                    <div className=" w-[405] md:w-[30%]  m-auto ">
                                         <img src={b.img} alt="" />
                                     </div>
                                     <div className="md:w-[60%] ">
@@ -69,7 +69,7 @@ const Blog = () => {
                 <div className="text-center flex justify-center items-center gap-x-[14px] group pt-[20px]">
                     <h5 className='font-primary font-bold text-[30px] md:text-[42px] text-white'>View More</h5>
                     <div className="w-[39px] h-[39px] md:w-[49px] md:h-[49px] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-purple-800 group-hover:text-white bg-white/10 border border-white/10 text-purple-500  " >
-                        <a  href=""> <TiLocationArrowOutline className='size-7 md:size-9 ' /></a>
+                        <a href=""> <TiLocationArrowOutline className='size-7 md:size-9 ' /></a>
                     </div>
                 </div>
 
