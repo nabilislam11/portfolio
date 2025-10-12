@@ -11,63 +11,63 @@ import Project from '../component/project/Project';
 import Blog from '../component/blog/Blog';
 import Footer from '../component/footer/Footer';
 import { TypeAnimation } from 'react-type-animation';
-import profile3 from '../assets/profile3.jpg'
+import profile4 from '../assets/profile4.jpg'
 import Contact from '../component/contact/Contact';
 
 const Home = () => {
   return (
-  <>
+    <>
       <div id='Home' className='bg-black  '>
-      <div className="w-full pt-18  mx-auto md:w-[1440px] pt:0 md:mx-auto  px-4 ">
-        {/* <Navbar /> */}
-        <div className=" flex md:flex-row justify-center md:justify-around md:items-center  gap-x-0 md:gap-x-8 md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] ">
-          <div className="w-[50%] ">
-            <div className="">
-              <h2 className='font-tittle font-bold text-[57px] md:text-[98px] text-white pb-[10px] md:pb-[12px]'>Nabil Islam</h2>
-                 <div className="font-secondary font-medium text-[18px]  md:text-[32px] text-white ">
-                  Hello I m{' '}
+        <div className="w-full pt-18  mx-auto md:w-[1440px] pt:0 md:mx-auto  px-4 ">
+          {/* <Navbar /> */}
+          <div className=" flex md:flex-row justify-center md:justify-around md:items-center  gap-x-0 md:gap-x-8 md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] pt-[10px] ">
+            <div className="w-[50%] ">
+              <div className="">
+                <h2 className='font-tittle font-bold text-[57px] md:text-[70px] text-white pb-[10px] md:pb-[12px]'>Nabil Islam</h2>
+                <div className="font-secondary font-medium text-[18px]  md:text-[32px] text-white ">
+                  Hello I m Front-end Developer With {' '} <br />
                   <TypeAnimation
                     sequence={[
-                      'Front-end Developer With JavaScript', 1000,
-                      'Front-end Developer With Tailwind CSS', 1000,
-                      'Front-end Developer With REACT ', 1000,
-                      'Front-end Developer With NEXT JS ', 1000,
+                      ' JavaScript', 1000,
+                      ' Tailwind CSS', 1000,
+                      ' REACT ', 1000,
+                      ' NEXT JS ', 1000,
                     ]}
                     wrapper="span"
                     className='font-primary  font-bold text-[22px]  md:text-[32px] text-purple-500 '
                     cursor={true}
-                     speed={200}
+                    speed={200}
                     repeat={Infinity}
-                    style={{ display: 'inline-block', fontWeight: 600  }}
+                    style={{ display: 'inline-block', fontWeight: 600 }}
                   />
                 </div>
-              <p className='font-primary  font-bold md:w-[450px] md:text-[32px] text-gray-400 md:pt-[27px] md:pb-[54px] text-[18px] pt-[9px] pb-[19px] w-[355px] '>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites</p>
-           
-            </div>
-            <div className="flex gap-x-3.5 group pb-[27px] md:pb-[98px] items-center ">
-              <p className='font-primary  font-semibold   text-[22px] text-white  '>Download My Resume</p>
-              <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
-              <a target='blank' href="https://drive.google.com/file/d/13xiweQer_ZiynnOfmoUgDB9dvfZqYV1r/view?usp=sharing"><FaCircleDown size={20} /></a>
+                <p className='font-primary  font-bold md:w-[450px] md:text-[32px] text-gray-400 md:pt-[27px] md:pb-[54px] text-[18px] pt-[9px] pb-[19px] w-[355px] '>A passionate web developer based from Bangladesh.With a keen eye for detail and a passion for web design, I specialize in creating visually captivating and highly functional websites</p>
+
+              </div>
+              <div className="flex gap-x-3.5 group pb-[27px] md:pb-[98px] items-center ">
+                <p className='font-primary  font-semibold   text-[22px] text-white  '>Download My Resume</p>
+                <div className="w-[49px] h-[49px] rounded-full  group-hover:bg-purple-800  bg-white/10 border border-white/10  flex items-center justify-center text-white ' ">
+                  <a target='blank' href="https://drive.google.com/file/d/13xiweQer_ZiynnOfmoUgDB9dvfZqYV1r/view?usp=sharing"><FaCircleDown size={20} /></a>
+                </div>
               </div>
             </div>
-            </div>
 
-          <div className="md:w-[50%]  w-full ">
-             <img className=' w-[80%] h-[90%] object-cover  mx-auto  rounded-t-[70px] rounded-b-[30px]  ' src={profile3} alt="" />
+            <div className="md:w-[50%]  w-full ">
+              <img className=' w-[80%] h-[90%] object-cover  mx-auto  rounded-t-[70px] rounded-b-[30px]  ' src={profile4} alt="" />
+            </div>
           </div>
         </div>
-      </div>
-        <Marque/>
+        <Marque />
         <div className="w-full  mx-auto md:w-[1440px] md:mx-auto  px-4">
-          <About/>
-          <Service/>
-          <Skill/>
-          <Project/>
-          <Blog/>
-          <Footer/>
+          <About />
+          <Service />
+          <Skill />
+          <Project />
+          <Blog />
+          <Footer />
         </div>
-    </div>
-  </>
+      </div>
+    </>
 
 
   )
