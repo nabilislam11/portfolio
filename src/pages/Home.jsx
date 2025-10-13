@@ -11,7 +11,7 @@ import Project from '../component/project/Project';
 import Blog from '../component/blog/Blog';
 import Footer from '../component/footer/Footer';
 import { TypeAnimation } from 'react-type-animation';
-import profile4 from '../assets/profile4.jpg'
+import profile3 from '../assets/profile3.jpg'
 import Contact from '../component/contact/Contact';
 
 const Home = () => {
@@ -53,7 +53,7 @@ const Home = () => {
             </div>
 
             <div className="md:w-[50%]  w-full ">
-              <img className=' w-[80%] h-[90%] object-cover  mx-auto  rounded-t-[70px] rounded-b-[30px]  ' src={profile4} alt="" />
+              <img className=' w-[80%] h-[90%] object-cover  mx-auto  rounded-t-[70px] rounded-b-[30px]  ' src={profile3} alt="" />
             </div>
           </div>
         </div>
