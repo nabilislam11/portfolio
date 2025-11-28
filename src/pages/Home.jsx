@@ -21,7 +21,7 @@ const Home = () => {
         <div className="w-full pt-18  mx-auto md:w-[1440px] pt:0 md:mx-auto  px-4 ">
           {/* <Navbar /> */}
           <div className=" flex md:flex-row justify-center md:justify-around md:items-center  gap-x-0 md:gap-x-8 md:pt-[109px] md:pb-[100px]  flex-col pb-[30px] pt-[10px] ">
-            <div className="w-[50%] ">
+            <div className="w-full md:w-[50%]">
               <div className="">
                 <h2 className='font-tittle font-bold text-[57px] md:text-[70px] text-white pb-[10px] md:pb-[12px]'>Nabil Islam</h2>
                 <div className="font-secondary font-medium text-[18px]  md:text-[32px] text-white ">

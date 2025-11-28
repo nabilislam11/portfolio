@@ -55,7 +55,7 @@ const Footer = () => {
                         <div className="flex items-center gap-x-4  py-5 group">
                             <MdAttachEmail className='text-white size-6' />
                             <input type="text" className='border-white border-b-2  outline-0 px-[10px]  text-white placeholder:text-white' placeholder='Enter Your Email' />
-                            <button className='font-secondary   font-normal py-[9px] md:py-[11px] px-[12px] md:px-[17px] rounded-[30px] bg-white/10 border border-white/10  text-[12px] text-white  transition-transform duration-300 group-hover:bg-purple-800 '>Send Message</button>
+                            <button className='font-secondary   font-normal py-[9px] md:py-[11px] px-[12px] md:px-[17px]  rounded-[25px] md:rounded-[30px] bg-white/10 border border-white/10 text-[10px] md:text-[12px] text-white  transition-transform duration-300 group-hover:bg-purple-800 '>Send Message</button>
                         </div>
                     </div>
                     <div className=" flex flex-col  gap-y-2.5  ">
